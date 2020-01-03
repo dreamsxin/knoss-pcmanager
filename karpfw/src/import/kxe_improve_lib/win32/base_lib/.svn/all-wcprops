@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/kfree/!svn/ver/3012/ksafe/branches/ksafe_arp_fb/src/import/kxe_improve_lib/win32/base_lib
+END
+lib_json.lib
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/kfree/!svn/ver/3012/ksafe/branches/ksafe_arp_fb/src/import/kxe_improve_lib/win32/base_lib/lib_json.lib
+END
+kxebasev8.lib
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/kfree/!svn/ver/3012/ksafe/branches/ksafe_arp_fb/src/import/kxe_improve_lib/win32/base_lib/kxebasev8.lib
+END
+lib_jsonmt.lib
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/kfree/!svn/ver/3012/ksafe/branches/ksafe_arp_fb/src/import/kxe_improve_lib/win32/base_lib/lib_jsonmt.lib
+END
+kxebase.lib
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/kfree/!svn/ver/3012/ksafe/branches/ksafe_arp_fb/src/import/kxe_improve_lib/win32/base_lib/kxebase.lib
+END
+jsonv6.lib
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/kfree/!svn/ver/3012/ksafe/branches/ksafe_arp_fb/src/import/kxe_improve_lib/win32/base_lib/jsonv6.lib
+END
+json.lib
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/kfree/!svn/ver/3012/ksafe/branches/ksafe_arp_fb/src/import/kxe_improve_lib/win32/base_lib/json.lib
+END

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "beikesafe", "..\src\src_bksafe\beikesafe\beikesafe.vcproj", "{E93E6C89-7D4E-42FC-9633-A8134285B5F4}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{5F41920B-2E7E-436B-8A5C-2845CAC727D9} = {5F41920B-2E7E-436B-8A5C-2845CAC727D9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BeikeUtils", "..\src\src_bksafe\BeikeUtils\BeikeUtils.vcproj", "{5F41920B-2E7E-436B-8A5C-2845CAC727D9}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E93E6C89-7D4E-42FC-9633-A8134285B5F4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E93E6C89-7D4E-42FC-9633-A8134285B5F4}.Debug|Win32.Build.0 = Debug|Win32
+		{E93E6C89-7D4E-42FC-9633-A8134285B5F4}.Release|Win32.ActiveCfg = Release|Win32
+		{E93E6C89-7D4E-42FC-9633-A8134285B5F4}.Release|Win32.Build.0 = Release|Win32
+		{5F41920B-2E7E-436B-8A5C-2845CAC727D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F41920B-2E7E-436B-8A5C-2845CAC727D9}.Debug|Win32.Build.0 = Debug|Win32
+		{5F41920B-2E7E-436B-8A5C-2845CAC727D9}.Release|Win32.ActiveCfg = Release|Win32
+		{5F41920B-2E7E-436B-8A5C-2845CAC727D9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

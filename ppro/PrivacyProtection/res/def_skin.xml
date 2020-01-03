@@ -1,0 +1,37 @@
+﻿<skins>
+<imghorzex name=mainbghead src=1 left=3/>
+<imgframe name=mainbgbody src=2 top=2 left=1 mode=mask crbg=FBFCFD/>
+<imghorzex name=mainbgfoot src=3 left=3/>
+
+
+<imglst name=restorebtn src=105 subwidth=18/>
+
+<png name=logo src=1/>
+<png name=btnStop src=3 subwidth=122/>
+<png name=closebtn src=4 subwidth=18/>
+<png name=maxbtn src=5 subwidth=18/>
+<png name=minbtn src=6 subwidth=18/>
+<png name=btnContinue src=13 subwidth=122/>
+<png name=iconok src=17/>
+<png name=iconwarn src=18/>
+<png name=iconask src=19/>
+<png name=new src=20/>
+<png name=btnScan src=21 subwidth=168/>
+<png name=btnScanShadow src=22/>
+<imgframe name=panel src=106 top=1 left=1 crbg=FBFCFD/>
+<gradation name=tipbg from=FFFFFF to=E4E5F0 direction=vert/>
+
+<button name=normalbtn border=7D9EBC bg=FBFCFD bgup=FEFEFE bgdown=C6E2FD bguphover=FEFEFE bgdownhover=DBEDFE bguppush=C6E2FD bgdownpush=FEFEFE/>
+
+<imghorzex name=msgboxhead2 src=31 part=all left=2/>
+<imghorzex name=msgboxbody2 src=32 part=all left=7/>
+<imgframe name=minaskbody src=111 left=7 top=7 mode=mask crbg=FBFCFD/>
+<imgframe name="msgboxhead" src="205" top="32" left="5" crbg="FBFCFD" part="top"/>
+<imgframe name="msgboxbody" src="205" top="32" left="5" crbg="FBFCFD" part="middle"/>
+<imgframe name="msgboxfoot" src="205" top="32" left="5" crbg="FBFCFD" part="bottom"/>
+
+<imghorzex name=tab src=300 mode=mask subwidth=7 left=3/>
+<imgframe name=panelgray src=301 top=1 left=1 crbg=FBFCFD/>
+</skins>
+
+

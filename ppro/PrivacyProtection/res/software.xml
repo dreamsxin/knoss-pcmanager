@@ -1,0 +1,216 @@
+﻿<root>
+	<software Name="腾讯QQ" Process="qq.exe" DataSign="Tencent Technology(Shenzhen) Company Limited" Company="深圳腾讯科技有限公司">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQ2009\Install" />
+	</software>
+	<software Name="腾讯TM" Process="tm.exe" DataSign="Tencent Technology(Shenzhen) Company Limited" Company="深圳腾讯科技有限公司">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\TM2008\Install" />
+	</software>
+	<software Name="MSN" Process="msnmsgr.exe" DataSign="Microsoft Corporation" Company="微软">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Live\Messenger\InstallationDirectory" />
+	</software>
+	<software Name="阿里旺旺" Process="AliIM.exe" DataSign="Alibaba (China) Co. Ltd." Company="阿里巴巴（中国）有限公司">
+	</software>
+	<software Name="飞信" Process="Fetion.exe" DataSign="China Mobile Communications Corporation" Company="中国移动通信">
+	</software>
+	<software Name="多玩YY" Process="duospeak.exe" DataSign="Duowan Entertainment Information Technology (Beijing) Co., Ltd." Company="多玩游戏网">
+	</software>
+	<software Name="百度hi" Process="BaiduHi.exe" DataSign="Baidu Online Network Technology (Beijing) Co., Ltd." Company="百度">
+	</software>
+	<software Name="Skype" Process="skype.exe" DataSign="Skype Limited" Company="Skype公司">
+		<reg key="HKEY_CURRENT_USER\Software\Skype\PluginManager\Plugins Root" />
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Skype\Toolbars\InstallPath" />
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Skype\Phone\MySkypePicturesPath" />
+	</software>
+	<software Name="Outlook Express" Process="msimn.exe" DataSign="Microsoft Corporation" Company="微软">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Outlook Express\InstallRoot" />
+	</software>
+	<software Name="Outlook" Process="outlook.exe" DataSign="Microsoft Corporation" Company="微软">
+	</software>
+	<software Name="Foxmail" Process="foxmail.exe" DataSign="Tencent Technology(Shenzhen) Company Limited" Company="深圳腾讯科技有限公司">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\Foxmail" />
+	</software>
+	<software Name="Live mail" Process="wlmail.exe" DataSign="Microsoft Corporation" Company="微软">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Live Mail\InstallRoot" />
+	</software>
+	<software Name="网易闪电邮" Process="FlashMail.exe" DataSign="Netease(Hangzhou) Network Co.Ltd." Company="网易科技">
+	</software>
+	<software Name="迅雷看看" Process="Xmp.exe" DataSign="ShenZhen Thunder Networking Technologies Ltd." Company="深圳市迅雷网络技术有限公司">
+	</software>
+	<software Name="迅雷" Process="Thunder.exe" DataSign="ShenZhen Thunder Networking Technologies Ltd." Company="深圳市迅雷网络技术有限公司">
+		<reg key="HKEY_CURRENT_USER\Software\Thunder Network\Thunder\DefaultPath" />
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Thunder Network\ThunderOem\thunder_backwnd\instdir" />
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Thunder Network\ThunderOem\thunder_backwnd\dir" />
+	</software>
+	<software Name="歪歪" Process="Start.exe" DataSign="Duowan Entertainment Information Technology (Beijing) Co., Ltd." Company="广州多玩信息技术有限公司">
+		<reg key="HKEY_CURRENT_USER\Software\yy\installdir" />
+	</software>
+	<software Name="酷狗音乐盒" Process="KuGoo.exe" DataSign="Guangzhou KuGou Computer Technology Co., Ltd." Company="酷狗音乐">
+	</software>
+	<software Name="电驴" Process="emule.exe" DataSign="Source Networking Technology Co., Ltd" Company="上海隐志网络科技有限公司">
+		<reg key="HKEY_CURRENT_USER\Software\easyMule\InstallPath" />
+	</software>
+	<software Name="风行" Process="Funshion.exe" DataSign="Beijing Funshion Online Technologies Ltd." Company="风行网络科技有限公司">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Funshion\Funshion\Install Path" />
+	</software>
+	<software Name="驱动精灵" Process="DriverGenius.exe" DataSign="VeriSign Time Stamping Services Signer - G2" Company="驱动之家">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\MyDrivers\DriverGenius2010\AppPath" />
+	</software>
+	<software Name="快播" Process="QvodPlayer.exe" DataSign="Shenzhen QVOD Technology Co.,Ltd" Company="深圳市快播科技有限公司">
+		<reg key="HKEY_CURRENT_USER\Software\QvodPlayer\Insert\Insertpath" />
+		<reg key="HKEY_CURRENT_USER\Software\QvodPlayer\Option\defaultsavepath" />
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\QvodPlayer\Insert\Insertpath" />
+	</software>
+	<software Name="美图秀秀" Process="xiuxiu.exe" DataSign="厦门网之源信息科技有限公司" Company="厦门网之源信息科技有限公司">
+	</software>
+	<software Name="金山词霸" Process="XDict.exe" DataSign="Copyright (c) Kingsoft Corporation Limited. All rights reserved" Company="金山软件有限公司">
+	</software>
+	<software Name="暴风影音" Process="storm.exe" DataSign="北京暴风网际科技有限公司" Company="北京暴风网际科技有限公司">
+		<reg key="HKEY_CURRENT_USER\Software\storm\exepath" />
+	</software>
+	<software Name="photoshop8.0" Process="Photoshop.exe" DataSign="" Company="Adobe公司">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Adobe\Adobe Gamma\Location" />
+	</software>
+	<software Name="鲁大师" Process="ComputerZ_CN.exe" DataSign="Chengdu Qiying Technology Co.,Ltd." Company="成都奇英科技">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\ComputerZ\Setup Path" />
+	</software>
+	<software Name="ispeak" Process="iSpeak.exe" DataSign="上海勤和互联网技术软件开发有限公司" Company="上海勤和互联网技术软件开发有限公司">
+	</software>
+	<software Name="360安全卫士" Process="360tray.exe" DataSign="Qizhi Software (beijing) Co. Ltd " Company="奇虎科技">
+	</software>
+	<software Name="酷我音乐盒" Process="KwMusic.exe" DataSign="BEIJING KUWO TECHNOLOGY CO.,LTD. " Company="酷我科技">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\KWMUSIC\KWMUSIC_HOME" />
+	</software>
+	<software Name="千千静听" Process="TTPlayer.exe" DataSign="Baidu Online Network Technology (Beijing) Co., Ltd." Company="百度">
+	</software>
+	<software Name="pplive" Process="PPLive.exe" DataSign="PPLive Corporation" Company="PPLive公司">
+	</software>
+	<software Name="vagaa" Process="vagaa.exe" DataSign="" Company="Vagaa Development Team">
+		<reg key="HKEY_CURRENT_USER\Software\vagaa\General\AppPath" />
+	</software>
+	<software Name="新浪uc" Process="SinaUC.exe" DataSign="SINA.COM TECHNOLOGY (CHINA) CO. LTD" Company="北京新浪网络技术服务有限公司">
+		<reg key="HKEY_CURRENT_USER\Software\sina\SinaUC\InstallDir" />
+	</software>
+	<software Name="uusee" Process="UUSeePlayer.exe" DataSign="Beijing Shi Yue Network Technology Co., Ltd. " Company="悠视网">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\UUSeeUpdate\InstallDir" />
+	</software>
+	<software Name="光影魔术手" Process="nEOiMAGING.exe" DataSign="" Company="深圳市迅雷网络技术有限公司">
+	</software>
+	<software Name="优化大师" Process="WoptiUtilities_CN.exe" DataSign="" Company="Wopti团队">
+	</software>
+	<software Name="bt" Process="BitComet.exe" DataSign="Shanghai Comet Network Technology" Company="比特彗星">
+	</software>
+	<software Name="winrar" Process="WinRAR.exe" DataSign="" Company="Eugene Roshal">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\WinRAR" />
+	</software>
+	<software Name="虚拟光驱" Process="DTLite.exe" DataSign="DT Soft Ltd" Company="DT软件公司">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\DT Soft\DAEMON Tools Pro" />
+	</software>
+	<software Name="超级兔子" Process="SrGui.exe" DataSign="New Keen Technology Limited" Company="超级兔子">
+	</software>
+	<software Name="wps" Process="wps.exe" DataSign="Zhuhai  Kingsoft Software Co.,Ltd" Company="金山软件有限公司">
+	</software>
+	<software Name="acdsee" Process="ACDSee.exe" DataSign="" Company="ACD 信息公司.">
+	</software>
+	<software Name="Adobe Reader" Process="AcroRd32.exe" DataSign="Adobe Systems, Incorporated" Company="Adobe Systems Incorporated">
+		<reg key="HKEY_CURRENT_USER\Software\Adobe\Acrobat Reader\9.0\InstallPath" />
+	</software>
+	<software Name="大智慧" Process="dzhupdate.exe" DataSign="大智慧软件公司" Company="大智慧">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\dzh\SuperStk\InstPath" />
+	</software>
+	<software Name="谷歌卫星地图下载器" Process="sggs.exe" DataSign="" Company="阿凯日软件">
+	</software>
+	<software Name="腾讯QQ游戏大厅" Process="QQGame.exe" DataSign="Tencent Technology(Shenzhen) Company Limited" Company="深圳腾讯科技有限公司">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQGame\SYS\GameDirectory" />
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQGame\SYS\HallDirectory" />
+	</software>
+	<software Name="P2P终结者" Process="p2pover.exe" DataSign="" Company="Net.Soft工作室">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\NetSoft\P2pover\Path" />
+	</software>
+	<software Name="天天壁纸秀" Process="Player.exe" DataSign="" Company="天天壁纸网">
+	</software>
+	<software Name="快车FlashGet" Process="Flashget3.exe" DataSign="Trend Media Corporation Limited" Company="趋势媒体集团">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\FlashGet Network\FlashGet 3\Path" />
+	</software>
+	<software Name="MP3剪切器" Process="MP3剪切器.exe" DataSign="" Company="1XG第一效果公司">
+	</software>
+	<software Name="Unlocker" Process="fse.exe" DataSign="xiabing wang" Company="夏冰软件">
+	</software>
+	<software Name="小说下载阅读器" Process="Book.exe" DataSign="" Company="华之城软件设计">
+	</software>
+	<software Name="PPS网络电视" Process="PPStream.exe" DataSign="SHANGHAI ZHONGYUAN NETWORKS LIMITED" Company="PPS网络电视">
+	</software>
+	<software Name="RealPlayer" Process="realplay.exe" DataSign="RealNetworks, Inc." Company="RealNetworks">
+	</software>
+	<software Name="傲盾网游加速器" Process="launcher.exe" DataSign="" Company="北京傲盾软件有限责任公司">
+	</software>
+	<software Name="Cpu-Z" Process="cpuz.exe" DataSign="" Company="cpu-z软件">
+	</software>
+	<software Name="操盘手乾坤版" Process="L2LC.exe" DataSign="" Company="上海益盟软件技术有限公司">
+	</software>
+	<software Name="福昕PDF阅读器" Process="Foxit Reader.exe" DataSign="Foxit Corporation" Company="福昕软件公司">
+	</software>
+	<software Name="鱼鱼桌面秀" Process="Player.exe" DataSign="" Company="鱼鱼软件">
+		<reg key="HKEY_CURRENT_USER\Software\CfishSoft\XDeskShow2\AppPath" />
+	</software>
+	<software Name="Windows清理助手" Process="ArSwp3.exe" DataSign="Beijing Arswp Information and Technology Co.,Ltd." Company="Windows 清理助手">
+	</software>
+	<software Name="文件夹加密超级大师" Process="fse.exe" DataSign="xiabing wang" Company="夏冰软件">
+	</software>
+	<software Name="皮皮播放器" Process="pipiplayer.exe" DataSign="Zhejiang HaoYing Network Co.,Ltd" Company="皮皮科技">
+	</software>
+	<software Name="浩方对战平台" Process="GameClient.exe" DataSign="Shanghai Holdfast Online Information Technology Co. Ltd." Company="上海浩方在线信息技术有限公司">
+	</software>
+	<software Name="优蛋" Process="udown.exe" DataSign="广东雨林木风计算机科技有限公司" Company="广东雨林木风计算机科技有限公司">
+	</software>
+	<software Name="QQ旋风" Process="qqdownload.exe" DataSign="Tencent Technology(Shenzhen) Company Limited" Company="深圳腾讯科技有限公司">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQDownload\install" />
+	</software>
+	<software Name="CBOX" Process="cbox.exe" DataSign="" Company="中国网络电视台">
+	</software>
+	<software Name="快盘" Process="KLive.exe" DataSign="Zhuhai  Kingsoft Software Co.,Ltd" Company="金山软件有限公司">
+	</software>
+	<software Name="可牛影像" Process="conew.exe" DataSign="Keniu Network Technology (Beijing) Co., Ltd." Company="可牛网络技术有限公司">
+		<reg key="HKEY_CURRENT_USER\Software\Conew\Install Path" />
+	</software>
+	<software Name="可牛看看" Process="knKan.exe" DataSign="Keniu Network Technology (Beijing) Co., Ltd." Company="可牛网络技术有限公司">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\knKan" />
+	</software>
+	<software Name="美图看看" Process="KanKan.exe" DataSign="厦门网之源信息科技有限公司" Company="厦门网之源信息科技有限公司">
+		<reg key="HKEY_CURRENT_USER\Software\Meitu\KanKan\AppPath" />
+	</software>
+	<software Name="迅游加速器" Process="xunyou.exe" DataSign="四川迅游网络科技有限公司" Company="四川迅游网络科技有限公司">
+	</software>
+	<software Name="有道词典" Process="RunDict.exe" DataSign="NetEase Youdao Information Technology (Beijing) Co.,Ltd." Company="网易科技">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Yodao\DeskDict\Install" />
+	</software>
+	<software Name="灵格斯词霸" Process="Lingoes.exe" DataSign="Lingoes Project" Company="灵格斯">
+	</software>
+	<software Name="搜狗拼音输入法" Process="sogoupinyintray.exe" DataSign="Sogou.com" Company="搜狗">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\SogouInput" />
+	</software>
+	<software Name="金山快快" Process="kkgame.exe" DataSign="Zhuhai  Kingsoft Software Co.,Ltd" Company="金山软件有限公司">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\KuaiKuai\KKGame\installdir" />
+	</software>
+	<software Name="金山打字通" Process="TypeEasy.exe" DataSign="Zhuhai  Kingsoft Software Co.,Ltd" Company="金山软件有限公司">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Kingsoft\TypeEasy\TypeEasy2008" />
+	</software>
+	<software Name="kmplayer" Process="KMPlayer.exe" DataSign="" Company="姜龙喜(韩国)">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\KMPlayer.exe" />
+	</software>
+	<software Name="foobar" Process="foobar2000.exe" DataSign="" Company="Peter Pawlowski">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\foobar2000\InstallDir" />
+	</software>
+	<software Name="itunes" Process="iTunes.exe" DataSign="Apple Inc." Company="苹果公司">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Apple Computer, Inc.\iTunes" />
+	</software>
+	<software Name="QQ影音" Process="QQPlayer.exe" DataSign="Tencent Technology(Shenzhen) Company Limited" Company="深圳腾讯科技有限公司">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\Tencent\QQPlayer" />
+	</software>
+	<software Name="同花顺" Process="hexin.exe" DataSign="" Company="浙江核新同花顺网络信息股份有限公司">
+	</software>
+	<software Name="好压" Process="HaoZip.exe" DataSign="上海瑞创网络科技发展有限公司" Company="上海瑞创网络科技发展有限公司">
+		<reg key="HKEY_LOCAL_MACHINE\SOFTWARE\HaoZip\Path" />
+	</software>
+	<software Name="谷歌拼音" Process="GooglePinyinDaemon.exe" DataSign="Google Inc" Company="谷歌">
+	</software>
+</root>

@@ -1,0 +1,13 @@
+﻿<layer id=140 width=320 height=133>
+    <header class="msgboxhead2" width="full" height="30">
+		<icon src="100" pos="8,7"/>
+		<text class="msgtitle" pos="29,9">提示！</text>
+		<imgbtn id="100" class="linkimage" skin="closebtn" pos="-26,7"/>
+	</header>
+	
+	<body class='minaskbody' width='full' height='full'>
+		<text id=151 class="textcontent" pos="121,28">图片保存成功！</text>		
+		<img id=160 pos="15,10" skin=iconok />
+		<button id="101" pos="128,60,194,86" class="normalbtn">确定</button> 
+	</body>
+</layer>

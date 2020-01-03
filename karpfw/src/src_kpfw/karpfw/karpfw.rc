@@ -1,0 +1,148 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#include ""buildcfg/versionno.rc2""\r\n"
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_TRAY_MENU MENU 
+BEGIN
+    POPUP "KArpFwSys"
+    BEGIN
+        MENUITEM "显示主程序",                       ID_ARPFW_SHOWMAIN
+        MENUITEM SEPARATOR
+        MENUITEM "开启ARP防护",                     ID_ARPFW_ENABLE
+        MENUITEM "关闭ARP防护",                     ID_ARPFW_DISABLE
+        MENUITEM SEPARATOR
+        MENUITEM "退出ARP防火墙",                    ID_ARPFW_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN_DLG DIALOGEX 0, 0, 366, 207
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "意见反馈",IDC_LNK_BBS,79,167,33,8
+    LTEXT           "Static",IDC_LNK_VERSION,7,167,60,8
+    LTEXT           "防火墙设置",IDC_LNK_SETTING,260,76,41,8
+    PUSHBUTTON      "Button1",IDC_BTN_ENABLE,249,35,50,14
+    PUSHBUTTON      "Button2",IDC_BTN_DISABLE,249,35,50,14
+    LTEXT           "查看",IDC_LNK_VIEWLOG,231,142,17,8
+    LTEXT           "拦截日志:",IDC_TXT_LOG,24,142,36,8
+    CONTROL         "",IDC_LINE,"Static",SS_ETCHEDHORZ,15,78,300,1
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAIN_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 359
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_COMMON_BTN          BITMAP                  "res\\btn_common.bmp"
+IDB_CLOSE_BTN           BITMAP                  "res\\btn_sys_close.bmp"
+IDB_SKIN                BITMAP                  "res\\msgbox_bg.bmp"
+IDB_YES                 BITMAP                  "res\\yes.bmp"
+IDB_NO                  BITMAP                  "res\\no.bmp"
+IDB_DISABLE_BTN         BITMAP                  "res\\btn_disable.bmp"
+IDB_ENABLE_BTN          BITMAP                  "res\\btn_enable.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\arpfw.ico"
+IDI_ARP_DISABLE         ICON                    "res\\arp_disable.ico"
+IDI_ARP_ENABLE          ICON                    "res\\arp_enable.ico"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+//#include "buildcfg/versionno.rc2"
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

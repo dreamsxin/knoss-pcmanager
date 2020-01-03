@@ -1,0 +1,31 @@
+﻿<layer title="信任文件列表" width=500 height=450>
+    <header class=msgboxhead width=full height=32>
+        <icon src=101 pos="5,9"/><text class=dlgtitle pos="25,10">%str1% - 白名单信任列表</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=3>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+        <dlg pos="10,10,-10,20" >
+            <img pos="0,0" skin=stat15 sub=3/><text pos="20,1">您可以添加信任的文件、网址，添加后将不会被扫描。</text>
+        </dlg>
+        <dlg pos="10,35,-10,-0">
+            <dlg pos="0,0,-0,-0" class=client id="110" show="1">
+                <text pos="0,0">正在加载信任文件列表...</text>
+            </dlg>
+            <dlg pos="0,0,-0,145" class=panel id="106" show=0>
+				<realwnd pos="0,0,-0,-0" ctrlid=100 id=100 />
+            </dlg>
+            <dlg pos="0,180,-0,335" class=panel id="107" show=0>
+            	<realwnd pos="0,0,-0,-0" ctrlid=104 id=104 />
+            </dlg>
+         	<dlg pos="155,-37,-100,-15" class=panel id="109" show=0>
+				<realwnd ctrlid=108 id=108 pos="2,4,-2,-2"/>
+			</dlg>
+			<dlg pos="0,0,-0,-0" id="111" show=0>
+				<button id=102 pos="-90,150,-0,175" class=normalbtn>添加信任文件</button>
+	         	<button id=105 pos="-90,-40,-0,-14" class=normalbtn>添加信任网址</button>
+	         	<text pos="10,-30">输入需添加为信任的网址：</text>
+         	</dlg>
+        </dlg>
+    </body>
+</layer>

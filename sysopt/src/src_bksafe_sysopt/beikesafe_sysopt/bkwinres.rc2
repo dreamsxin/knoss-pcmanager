@@ -1,0 +1,72 @@
+#pragma once
+
+//////////////////////////////////////////////////////////////////////////
+// XML
+
+DEFINE_XML(IDR_BK_SKIN_DEF,								100, 					"res\\def_skin.xml")
+DEFINE_XML(IDR_BK_STYLE_DEF,							101, 					"res\\def_style.xml")
+DEFINE_XML(IDR_BK_STRING_DEF,							102, 					"res\\def_string.xml")
+DEFINE_XML(IDR_BK_MAIN_DIALOG,							103, 					"res\\dlg_main.xml")
+DEFINE_XML(IDR_BK_MESSAGEBOX,							105, 					"res\\dlg_msgbox.xml")
+DEFINE_XML(IDR_BK_RUNOPT_LIST,							128, 					"res\\dlg_runopt_list.xml")
+DEFINE_XML(IDR_BK_RUNOPT_IGNORE_DLG,					134, 					"res\\dlg_runopt_ignore.xml")
+DEFINE_XML(IDR_BK_MESSAGEBOX2,							150, 					"res\\dlg_msgbox2.xml")
+DEFINE_XML(IDR_BK_SYSOPT_SETTING_DLG,					152,					"res\\dlg_sysopt_setting.xml")
+		
+// dlgfile 标签里面的文件
+DEFINE_XML(IDR_BK_DLGFILE_OPT,							504, 					"res\\dlgfile_opt.xml")
+DEFINE_XML(IDR_BK_DLGFILE_FOOT,					 	    508, 					"res\\dlgfile_foot.xml")
+DEFINE_XML(IDR_BK_DLGFILE_HEADER,				 	    509, 					"res\\dlgfile_header.xml")
+
+//////////////////////////////////////////////////////////////////////////
+// ICON
+
+DEFINE_ICO(IDI_BEIKESAFE,                  	 			100, 					"res\\beikesafe.ico")
+DEFINE_ICO(IDI_SMALL,                      	 			101, 					"res\\small.ico")
+DEFINE_ICO(IDI_RUN_SYSTEM,                 	 			102, 					"res\\run_system.ico")
+DEFINE_ICO(IDI_RUN_UNKNOWN,                	 			103, 					"res\\run_unknown.ico")
+DEFINE_ICO(IDI_REGEDIT,                    	 			104, 					"res\\regedit.ico")
+DEFINE_ICO(IDI_RUN_REMAIN,								105,					"res\\run_remain.ico")
+
+//////////////////////////////////////////////////////////////////////////
+// PNG 
+DEFINE_PNG(IDP_PNG_STATUS15,							40,						 "res\\status_icon.png")
+DEFINE_PNG(IDP_PNG_EXAM_STATUS15,						41,						 "res\\exam_status_icon.png")
+DEFINE_PNG(IDB_BTN_SYS_CLOSE_PNG,							44,						 "res\\btn_sys_close.png")
+DEFINE_PNG(IDB_BTN_SYS_MAXIMIZE_PNG,						46,						 "res\\btn_sys_maximize.png")
+DEFINE_PNG(IDB_BTN_SYS_MINIMIZE_PNG,						47,						 "res\\btn_sys_minimize.png")
+DEFINE_PNG(IDB_BTN_SYS_RESTORE_PNG,							48,						     "res\\btn_sys_restore.png")
+DEFINE_BMP(IDB_MSGBOX_BG,                   			4,   					"res\\msgbox_bg.bmp")
+DEFINE_BMP(IDB_TAB_NORMAL,                  			6,   					"res\\tab_normal.bmp")
+DEFINE_BMP(IDB_STATUS_40,                   			15,  					"res\\status_40.bmp")
+DEFINE_BMP(IDB_TAB_LEFT,                    			16,  					"res\\tab_left.bmp")
+DEFINE_BMP(IDB_TAB_LEFT_SPLITTER,           			17,  					"res\\tab_left_splitter.bmp")
+DEFINE_BMP(IDB_BTN_VIRSCAN_BG,              			27,  					"res\\btn_virscan_bg.bmp")
+DEFINE_BMP(IDP_BG_MSGBOX_BODY,							29,  					"res\\msgbox_body_bg.bmp")
+DEFINE_BMP(IDB_BTN_SYS_CLOSE,               101, "res\\btn_sys_close.bmp")
+DEFINE_BMP(IDB_BTN_SYS_MAXIMIZE,            103, "res\\btn_sys_maximize.bmp")
+DEFINE_BMP(IDB_BTN_SYS_MINIMIZE,            104, "res\\btn_sys_minimize.bmp")
+DEFINE_BMP(IDB_BTN_SYS_RESTORE,             105, "res\\btn_sys_restore.bmp")
+DEFINE_BMP(IDB_FRAME_PANEL_GRAY,            106, "res\\frame_panel_gray.bmp")
+DEFINE_BMP(IDB_FRAME_PANEL,                 107, "res\\frame_panel.bmp")
+DEFINE_BMP(IDB_STATUS_ICON,                 111, "res\\status_icon.bmp")
+DEFINE_BMP(IDB_SCAN_RESULT_LIST_BAR,		122, "res\\scan_result_list_bar.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_HEADER,					210, 					"res\\listctrl_header.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_CHECK,					211, 					"res\\listctrl_check.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_RADIO,					213, 					"res\\listctrl_radio.bmp")
+
+DEFINE_PNG(IDP_LOADINFO_TIP,				8020,   "res\\loadinfo_tip_softmgr.png")
+DEFINE_BMP(IDB_SOFTMGR_CLEAR_BK, 			8034, 	"res\\clear_bk.bmp")
+DEFINE_BMP(IDB_SYSOPT_LIST_HEADERBK,		8035,	"res\\sysopt_listbk.bmp")
+DEFINE_BMP(IDB_LOADINFO_DLGBK,				8036,	"res\\loadinfo_dlgbk.bmp")
+
+// 添加
+DEFINE_PNG(IDP_AUTOPOT_BMP_NOITEM,						20005,					"res\\autoopt_done.png")
+DEFINE_PNG(IDP_RUNOPT_NO_RUNTASK,						20006,					"res\\no_runtask.png")
+DEFINE_BMP(IDB_RUNOPT_STATUS,							20007,					"res\\stat_runopt.bmp")
+DEFINE_PNG(IDP_RUNOPT_LOADING_TIP,						20008,					"res\\loading_runopt.png")
+DEFINE_BMP(IDB_RUNOPT_MOREOPT,							20009,					"res\\sysopt_more.bmp")
+DEFINE_BMP(IDB_RUNOPT_LIST_HEADER,						20010,					"res\\runopt_listheader.bmp")
+DEFINE_BMP(IDB_RUNOPT_PANEL_DELAY,						20011,					"res\\loaddlg_panel.bmp")
+DEFINE_PNG(IDP_RUNOPT_STARTUPTIME_SETTING,				20012,					"res\\startuptime_setting.png")
+DEFINE_PNG(IDP_RUNOPT_IGNORE_TIP,						20013,					"res\\ignore_tip.png")

@@ -1,0 +1,2 @@
+sln\lang.sln,/p:Configuration=Release /tv:2.0,msbuild
+sln\kclear.sln,/t:rebuild /p:Configuration=Release /tv:2.0,msbuild

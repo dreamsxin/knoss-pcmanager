@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<KRuleConfig>
+	<Debug resultlist="1, 2, 5" />
+
+	<RegString>
+		<RegItem name="%QQ2009Path%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\Tencent\QQ2009" valuename="Install"/>
+		<RegItem name="%TM2009Path%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\Tencent\TM2008" valuename="Install"/>
+		<RegItem name="%MSNPath%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\Microsoft\Windows Live\Messenger" valuename="InstallationDirectory"/>
+		<RegItem name="%kxescorePath%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\Kingsoft\KISCommon\Install\kiscommon" valuename="ProgramPath"/>
+		<RegItem name="%msimnroot%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\Microsoft\Outlook Express" valuename="InstallRoot"/>
+		<RegItem name="%livemailroot%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\Microsoft\Windows Live Mail" valuename="InstallRoot"/>
+		<RegItem name="%TTroot%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\Tencent\TTraveler" valuename="Install"/>
+		<RegItem name="%QQmusicPath%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\Tencent\QQmusic" valuename="Install"/>
+		<RegItem name="%QQdownloadPath%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\Tencent\QQdownload" valuename="Install"/>
+		<RegItem name="%QQplayerPath%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\Tencent\QQplayer" valuename="InstallDir"/>
+		<RegItem name="%QQgamePath%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\Tencent\qqgame\sys" valuename="GameDirectory"/>
+		<RegItem name="%QQPhotoPath%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\Tencent\QQPhotoDrawEx" valuename="Install"/>
+		<RegItem name="%QQimage%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\Tencent\QQimage" valuename="InstallDir"/>
+		<RegItem name="%QQpcmgrpath%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\Tencent\QQpcmgr" valuename="InstallDir"/>
+		<RegItem name="%RTXPath%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\Tencent\RTXC" valuename="INSTDIR"/>
+		<RegItem name="%kwmusic%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\kwmusic" valuename="KWMUSIC_HOME"/>
+		<RegItem name="%ksafePath%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\ksafe" valuename="Install Path"/>
+		<RegItem name="%kwsPath%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\KSWSVC" valuename="Install Path"/>
+		<RegItem name="%qqdict%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\tencnnte\qqdict" valuename="InstallDir"/>
+        <RegItem name="%QQBrowser%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\Tencent\QQBrowser" valuename="Install"/>
+		<RegItem name="%QQWeb%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\Tencent\QQBrowser" valuename="Install"/>
+		<RegItem name="%QBPage%" rootkey="HKEY_LOCAL_MACHINE" subkey="SOFTWARE\Tencent\QQBrowser" valuename="Install"/>
+
+	</RegString>
+	
+	<ProcessName>
+		<ProcItem name="%AliIM%" procname="AliIM.exe" filename="WangWang.exe" />
+		<ProcItem name="%Outlook%" procname="outlook.exe" sign="Microsoft Corporation"  />
+		<ProcItem name="%360se%" procname="360se.exe" sign="Qizhi Software (beijing) Co. Ltd"  />
+		<ProcItem name="%foxmail%" procname="foxmail.exe" sign="Tencent Technology(Shenzhen) Company Limited" />
+		<ProcItem name="%qqpymblog%" procname="qqpymblog.exe" sign="Tencent Technology(Shenzhen) Company Limited" />
+		<ProcItem name="%qqlive%" procname="qqlive.exe" sign="Tencent Technology(Shenzhen) Company Limited" />
+		<ProcItem name="%qqpenguin%" procname="qqpenguin.exe" sign="Tencent Technology(Shenzhen) Company Limited" />
+		<ProcItem name="%qqhostservice%" procname="qqhostservice.exe" sign="Tencent Technology(Shenzhen) Company Limited" />
+		<ProcItem name="%auclt%" procname="auclt.exe" sign="Tencent Technology(Shenzhen) Company Limited" />
+		<ProcItem name="%storagetool%" procname="storagetool.exe" sign="Tencent Technology(Shenzhen) Company Limited" />
+		<ProcItem name="%QQ%" procname="qq.exe" sign="Tencent Technology(Shenzhen) Company Limited" />
+		<ProcItem name="%tm%" procname="tm.exe" sign="Tencent Technology(Shenzhen) Company Limited" />
+		<ProcItem name="%cleaner801%" procname="cleaner801.exe" sign="Tencent Technology(Shenzhen) Company Limited" />
+		<ProcItem name="%qqpetagent%" procname="qqpetagent.exe" sign="Tencent Technology(Shenzhen) Company Limited" />
+		<ProcItem name="%update%" procname="update.exe" sign="Tencent Technology(Shenzhen) Company Limited" />
+		<ProcItem name="%sogouexplo%" procname="SogouExplorer.exe" sign="Sogou.com" />
+		<ProcItem name="%Maxthon%" procname="Maxthon.exe" sign="Maxthon Asia Ltd" />
+		<ProcItem name="%qqsoftgr%" procname="qqsoftgr.exe" sign="Tencent Technology(Shenzhen) Company Limited" />
+		<ProcItem name="%Firefox%" procname="firefox.exe" sign="Mozilla Corporation" />
+		<ProcItem name="%Chrome%" procname="chrome.exe" sign="Google Inc" />
+		<ProcItem name="%115br%" procname="115br.exe" sign="广东雨林木风计算机科技有限公司" />
+		<ProcItem name="%theworld%" procname="TheWorld.exe" sign="Beijing ShengjingWanwei Technology Co.,Ltd." />
+		<ProcItem name="%opera%" procname="opera.exe" sign="Opera Software ASA" />
+		<ProcItem name="%pptv%" procname="pplive.exe" sign="PPLive Corporation" />
+		<ProcItem name="%saayaa%" procname="saayaa.exe" sign="Qingdao Loogoo InfoTech Co.,ltd." />
+		<ProcItem name="%meitu%" procname="xiuxiu.exe" sign="厦门网之源信息科技有限公司" />
+		<ProcItem name="%KuGoo%" procname="KuGoo.exe" sign="Guangzhou KuGou Computer Technology Co., Ltd." />
+		<ProcItem name="%kankan%" procname="Xmp.exe" sign="ShenZhen Thunder Networking Technologies Ltd." />
+		<ProcItem name="%xunlei%" procname="thunder.exe" sign="ShenZhen Thunder Networking Technologies Ltd." />
+		<ProcItem name="%baiduhi%" procname="baiduhi.exe" sign="Baidu Online Network Technology (Beijing) Co., Ltd." />
+		<ProcItem name="%QQBrowser%" procname="QQBrowser.exe" sign="Tencent Technology(Shenzhen) Company Limited" />
+		<ProcItem name="%QQWeb%" procname="QQWeb.exe" sign="Tencent Technology(Shenzhen) Company Limited" />
+		<ProcItem name="%TTroot%" procname="TTraveler.exe" sign="Tencent Technology(Shenzhen) Company Limited" />
+		<ProcItem name="%QBPage%" procname="QBPage.exe" sign="Tencent Technology(Shenzhen) Company Limited" />
+		<ProcItem name="%QzoneMusic%" procname="QzoneMusic.exe" sign="Tencent Technology(Shenzhen) Company Limited" />
+		<ProcItem name="%tangguo%" procname="tango3.exe" sign="Beijing Tangguo Network Technique Co.,Ltd." />
+		<ProcItem name="%tangguoweb%" procname="TangoWeb.exe" sign="Beijing Tangguo Network Technique Co.,Ltd." />
+		
+
+	</ProcessName>
+
+	<KRules>    
+		<KFileExtensionRule extension=".doc .docx .dps .wps .xlsx .pdf .uof .pot .tif .rtf .ppt .et .txt .xls .slsb .xlsm .xlam .xlamdb .mde .accde .accdb .jpg .bmp .tiff .gif .pcx .tga .exif .fpx .svg .psd  .cdr .pcd .dxf .ufo .eps .ai .raw .nef .jpeg .jif .Mpg .mepg .avi .wmv .rm .rmvb .3gp .mp4 .afs .mov .mkv .divx .flv .vob .xml .db .mht .html .htm .dbx .pst .box .vcf .eml .url">
+			<Desc>文件扩展名规则，判断文件扩展名是否在列表中</Desc>
+		</KFileExtensionRule>
+
+		<KProcFileRule>
+			<Desc>文件进程同一目录规则，判断文件是否在进程目录下</Desc>
+		</KProcFileRule>
+
+		<KFilePathRule>
+			<Desc>文件全路径规则，判断文件路径是否在指定的文件列表中</Desc>
+		</KFilePathRule>
+
+		<KFileNameRule>
+			<FileItem>msg2.0.db</FileItem>
+		</KFileNameRule>
+
+		<KWhiteRule>
+			<Desc>文件全路径规则，判断文件路径是否在指定的文件列表中</Desc>
+			<Item procpath="%windows%\explorer.exe" />
+			<Item procpath="%System32%\svchost.exe" />
+			<Item procdir="%kxescorePath%" />
+			<Item filedir="%commonappdata%" />
+			<Item filedir="%programfilescomm%" />
+			<Item filedir="%appdata%" />
+			<Item filedir="%userprofile%\Local Settings\Temporary Internet Files\" />
+			<Item filedir="%userprofile%\Appdata\Local\Microsoft\Windows\Temporary Internet Files\" />
+			<Item filedir="%userprofile%\Local Settings\Application Data" />
+			<Item filedir="%temp%" />
+			<Item filedir="%ksafepath%" />
+			<Item filedir="%kwspath%" />
+			<Item filedir="%userprofile%\appdata\local\microsoft\windows\" />
+			<Item filedir="%userprofile%\appdata\local\temp\" />
+			<Item filedir="%windows%" />
+			<Item filedir="%QQgamePath%" />
+			<Item filedir="%userprofile%\local settings\temp\" />
+		</KWhiteRule>
+
+		<KFileDirRule>
+			<Desc>文件目录规则，判断文件目录是否在指定的目录列表中</Desc>
+			<PathItem>%Mydocuments%</PathItem>
+			<PathItem>%Mydocuments%\tencent files</PathItem>
+			<PathItem>%QQ2009Path%\users\</PathItem>
+			<PathItem>%TM2009Path%\users\</PathItem>
+			<PathItem>*\foxmail\mail\*</PathItem>
+			<PathItem>*\FavoriteVideo\*</PathItem>
+			<PathItem>*\kankan\*</PathItem>
+			<PathItem>*\tencent\*</PathItem>
+			<PathItem>%Mydocuments%\我接收到的文件\</PathItem>
+			<PathItem>%Mydocuments%\My WangWang\</PathItem>
+			<PathItem>*\AliWangWang\profiles\cntaobao*</PathItem>
+			<PathItem>*\msghistory\*</PathItem>
+			<PathItem>%localappdate%\Identities\*\Microsoft\Outlook Express\*</PathItem>
+			<PathItem>%localappdate%\Microsoft\Outlook\</PathItem>
+			<PathItem>%userprofile%\appdata\Local\Microsoft\Windows live Mail\*</PathItem>
+			<PathItem>%userprofile%\cookies\</PathItem>
+			<PathItem>%userprofile%\cookies\APPDATA\Microsoft\Windows\Cookies\</PathItem>
+			<PathItem>%userprofile%\Favorites\</PathItem>
+			<PathItem>%userprofile%\Local Settings\History\</PathItem>
+			<PathItem>%userprofile%\APPDATA\Roaming\Local\Microsoft\Windows\History\</PathItem>
+		</KFileDirRule>
+
+		<KProcPathRule>
+			<Desc>进程全路径规则，判断进程路径是否在指定的文件列表中</Desc>
+		</KProcPathRule>
+
+		<KProcDirRule>
+			<Desc>进程目录规则，暂未支持，判断进程目录是否在指定的目录列表中</Desc>
+		</KProcDirRule>
+
+		<KFileExtRelateRule>
+			<Desc>文件扩展名关联进程与自定义关联进程规则，判断文件默认打开进程是否在系统定义进程或者自定义进程列表中</Desc>
+		</KFileExtRelateRule>
+
+		<KFileNameRelateRule>
+			<Desc>文件名关联进程规则，判断文件默认打开进程是否在系统定义进程或者自定义进程列表</Desc>
+			<FileItem filename="msg2.0.db" proc="%QQ2009Path%\bin\QQ.exe"/>
+		</KFileNameRelateRule>
+
+		<KDirRelateRule>
+			<Desc>文件路径关联进程规则，判断访问目录的进程是否在自定义关联的进程列表中</Desc>
+			<DirItem dir="%QQ2009Path%" proc="%QQ2009Path%\bin\QQ.exe"/>
+			<DirItem dir="%mydocuments%\Tencent Files" proc="%QQ2009Path%\bin\QQ.exe"/>
+			<DirItem dir="*\KwDownload\*" proc="%kwmusic%\kwmusic.exe"/>
+			<DirItem dir="%QQ2009Path%\users\" proc="%TM2009Path%\bin\QQ.exe"/>
+			<DirItem dir="%TM2009Path%\users\" proc="%TM2009Path%\bin\TM.exe"/>
+			<DirItem dir="%TM2009Path%\" proc="%TM2009Path%\bin\TM.exe"/>
+			<DirItem dir="*\my qq files\" proc="%QQ2009Path%\bin\QQ.exe"/>
+			<DirItem dir="*\Image\*" proc="%TM2009Path%\bin\TM.exe"/>
+			<DirItem dir="*\tencent\*" proc="%QQ2009Path%\bin\QQ.exe"/>
+			<DirItem dir="*\tencent\*" proc="%TM2009Path%\bin\TM.exe"/>
+			<DirItem dir="*\tencent\*" proc="%RTXPath%\RTX.exe"/>
+			<DirItem dir="*\tencent\*" proc="%qqdownloadpath%/qqdownload.exe"/>
+			<DirItem dir="*\tencent\*" proc="%TTroot%\bin\TTraveler.exe"/>
+			<DirItem dir="*\tencent\*" proc="%QQplayerPath%\QQplayer.exe"/>
+			<DirItem dir="*\tencent\*" proc="%qqimage%\qqimage.exe"/>
+			<DirItem dir="*\tencent\*" proc="%QQMusicPath%\QQMusic.exe"/>
+			<DirItem dir="*\tencent\*" procname="%update%"/>
+			<DirItem dir="*\tencent\*" procname="%qq%"/>
+			<DirItem dir="*\tencent\*" procname="%tm%"/>
+			<DirItem dir="*\QQgame\*"  procname="%update%"/>
+			<DirItem dir="*\tencent\*" procname="%auclt%"/>
+			<DirItem dir="*\tencent\*" procname="%storagetool%"/>
+			<DirItem dir="*\tencent\*" procname="%qqpetagent%"/>
+			<DirItem dir="*\tencent\*" proc="%QQgamePath%\QQgame.exe"/>
+			<DirItem dir="*\tencent\*" procname="%QQlive"/>
+			<DirItem dir="*\tencent\*" proc="%QQimagepath%\QQimage.exe"/>
+			<DirItem dir="*\tencent\*" procname="%foxmail%"/>
+			<DirItem dir="*\tencent\*" procname="%cleaner801%"/>
+            <DirItem dir="*\tencent\*" proc="%QQBrowser%\bin\QQBrowser.exe"/>
+			<DirItem dir="*\tencent\*" proc="%QQBrowser%\bin\QQWeb.exe"/>
+			<DirItem dir="*\tencent\*" proc="%QQBrowser%\bin\QBPage.exe"/>
+			<DirItem dir="*\tencent\*" proc="%QQpcmgrpath%\QQPCMgr.exe"/>
+			<DirItem dir="*\tencent\*" proc="%QQpcmgrpath%\QMUpdate\QQPCUpdate.exe"/>
+			<DirItem dir="*\tencent\*" proc="%QQdict\qqdict.exe"/>
+			<DirItem dir="*\tencent\*" procname="%QzoneMusic%"/>
+
+
+			<DirItem dir="*\Google\chrome\*" procname="%chrome%"/>
+			<DirItem dir="%mydocuments%\Tencent Files" proc="%TM2009Path%\bin\TM.exe"/>
+			<DirItem dir="%qqimage%" proc="%qqimage%\QQImage.exe"/>
+			<DirItem dir="%mydocuments%\My RTX Files" proc="%RTXPath%\RTX.exe"/>
+			<DirItem dir="%mydocuments%\RTXC File List" proc="%RTXPath%\RTX.exe"/>
+			<DirItem dir="%Mydocuments%\My WangWang\" procname="%AliIM%"/>
+			<DirItem dir="%Mydocuments%\baidu\" procname="%baiduhi%"/>
+			<DirItem dir="*\msghistory\*" procname="%AliIM%"/>
+			<DirItem dir="*\QQvideo.cache\*" procname="%qqlive%"/>
+			<DirItem dir="*\foxmail\mail\*" procname="%foxmail%"/>
+			<DirItem dir="*\qqdownload\*" procname="%qqdownloadpath%/qqdownload.exe%"/>
+			<DirItem dir="*\FavoriteVideo\*" procname="%pptv%"/>
+			<DirItem dir="*\kankan\*" procname="%kankan%"/>
+			<DirItem dir="*\tddownload\*" procname="%xunlei%"/>
+			<DirItem dir="*\AliWangWang\profiles\cntaobao*\*" procname="%AliIM%"/>
+			<DirItem dir="%mydocuments%\美图图库\" procname="%meitu%"/>
+			<DirItem dir="%TTroot%" procname="%TTroot%\bin\TTraveler.exe%"/>
+			<DirItem dir="*\KuGou\*" proc="%kugoo%"/>
+
+<!-- msn -->
+			<DirItem dir="%mydocuments%" proc="%MSNPath%\msnmsgr.exe"/>
+			<DirItem dir="%userprofile%\AppData\Local\Microsoft\Messenger\*" proc="%MSNPath%\msnmsgr.exe"/>
+			<DirItem dir="%MSNPath%" proc="%MSNPath%\msnmsgr.exe"/>
+
+			<DirItem dir="%localappdate%\Identities\*\Microsoft\Outlook Express\*" proc="%msimnroot%\msimn.exe"/>
+			<DirItem dir="%localappdate%\Identities\*\Microsoft\Outlook\*" proc="%msimnroot%\outlook.exe"/>
+			<DirItem dir="%userprofile%\appdata\Local\Microsoft\Windows live Mail\*" proc="%livemailroot%\livemail.exe"/>
+<!-- QQ浏览器5 -->
+            <DirItem dir="%mydocuments%\Tencent Files\All Users\QQBrowser\*" proc="%QQBrowser%\bin\QQBrowser.exe"/>
+			<DirItem dir="%userprofile%\Application Data\Tencent\QQBrowser\*" proc="%QQBrowser%\bin\QQBrowser.exe"/>
+			<DirItem dir="%mydocuments%\Tencent Files\All Users\QQBrowser\*" proc="%QQBrowser%\bin\QQWeb.exe"/>
+			<DirItem dir="%userprofile%\Application Data\Tencent\QQBrowser\*" proc="%QQBrowser%\bin\QQWeb.exe"/>
+			<DirItem dir="%mydocuments%\Tencent Files\All Users\QQBrowser\*" proc="%QQBrowser%\bin\QBPage.exe"/>
+			<DirItem dir="%userprofile%\Application Data\Tencent\QQBrowser\*" proc="%QQBrowser%\bin\QBPage.exe"/>
+
+			<DirItem dir="%userprofile%\cookies\" proc="%QQ2009Path%\bin\QQ.exe" />
+			<DirItem dir="%userprofile%\cookies\" proc="%TM2009Path%\bin\tm.exe" />
+			<DirItem dir="%userprofile%\cookies\" proc="%RTXPath%\RTX.exe" />
+			<DirItem dir="%userprofile%\cookies\" procname="%AliIM%" />
+			<DirItem dir="%userprofile%\cookies\" proc="%QQMusicPath%\QQMusic.exe" />
+			<DirItem dir="%userprofile%\cookies\" proc="%QQdownloadPath%\QQdownload.exe" />
+			<DirItem dir="%userprofile%\cookies\" proc="%QQplayerPath%\QQplayer.exe" />
+			<DirItem dir="%userprofile%\cookies\" procname="%QQlivePath%" />
+			<DirItem dir="%userprofile%\cookies\" procname="%chrome%" />
+			<DirItem dir="%userprofile%\cookies\" procname="%firefox%" />
+			<DirItem dir="%userprofile%\cookies\" procname="%opera%" />
+			<DirItem dir="%userprofile%\cookies\" procname="%360se%" />
+			<DirItem dir="%userprofile%\cookies\" procname="%sogouexplo%" />	
+			<DirItem dir="%userprofile%\cookies\" procname="%Maxthon%" />	
+			<DirItem dir="%userprofile%\cookies\" proc="%TTroot%\bin\TTraveler.exe" />
+			<DirItem dir="%userprofile%\cookies\" procname="%chrome%" />
+			<DirItem dir="%userprofile%\cookies\" procname="%firefox%" />
+			<DirItem dir="%userprofile%\cookies\" procname="%theworld%" />
+			<DirItem dir="%userprofile%\cookies\" procname="%opera%" />
+			<DirItem dir="%userprofile%\cookies\" procname="%saayaa%" />.
+			<DirItem dir="%userprofile%\cookies\" procname="%115br%" />
+			<DirItem dir="%userprofile%\cookies\" procname="%qqpymblog%" />
+			<DirItem dir="%userprofile%\cookies\" procname="%qqlive%" />
+			<DirItem dir="%userprofile%\cookies\" proc="%qqimage%\qqimage.exe" />
+			<DirItem dir="%userprofile%\cookies\" proc="%QQgamePath%\QQgame.exe"/>
+			<DirItem dir="%userprofile%\cookies\" proc="%QQpcmgrpath%\QQPCMgr.exe"/>
+			<DirItem dir="%userprofile%\cookies\" proc="%QQdict%\qqdict.exe"/>
+			<DirItem dir="%userprofile%\cookies\" procname="%qqpenguin%"/>
+			<DirItem dir="%userprofile%\cookies\" procname="%qq%"/>
+			<DirItem dir="%userprofile%\cookies\" procname="%tm%"/>
+			<DirItem dir="%userprofile%\cookies\" procname="%auclt%"/>
+			<DirItem dir="%userprofile%\cookies\" procname="%qqhostservice%"/>
+			<DirItem dir="%userprofile%\cookies\" procname="%cleaner801%"/>
+			<DirItem dir="%userprofile%\cookies\" proc="%QQBrowser%\bin\QQBrowser.exe"/>
+			<DirItem dir="%userprofile%\cookies\" proc="%QQBrowser%\bin\QQWeb.exe"/>
+			<DirItem dir="%userprofile%\cookies\" proc="%QQBrowser%\bin\QBPage.exe"/>
+			<DirItem dir="%userprofile%\cookies\" proc="%kwmusic%\kwmusic.exe"/>
+			<DirItem dir="%userprofile%\cookies\" procname="%QzoneMusic%"/>
+			<DirItem dir="%userprofile%\cookies\" procname="%tangguo%"/>
+            <DirItem dir="%userprofile%\cookies\" procname="%tangguoweb%"/>
+
+
+
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" proc="%QQ2009Path%\bin\QQ.exe" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" proc="%TM2009Path%\bin\TM.exe" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" procname="%AliIM%" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" proc="%QQdownloadPath%\QQdownload.exe" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" proc="%QQplayerPath%\QQplayer.exe" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" procname="%chrome%" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" procname="%firefox%" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" procname="%opera%" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" proc="%QQMusicPath%\QQMusic.exe" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" procname="%360se%" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" procname="%sogouexplo%" />	
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" procname="%Maxthon%" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" procname="%chrome%" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" procname="%firefox%" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" procname="%theworld%" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" procname="%opera%" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" procname="%115br%" />	
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" procname="%saayaa%" />				
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" proc="%TTroot%\bin\TTraveler.exe" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" proc="%QQBrowser%\bin\QQBrowser.exe" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" proc="%QQBrowser%\bin\QQWeb.exe" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" proc="%QQBrowser%\bin\QBPage.exe" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" proc="%kwmusic%\kwmusic.exe" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" procname="%QzoneMusic%" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" procname="%tangguo%" />
+			<DirItem dir="%userprofile%\APPDATA\Roaming\Microsoft\Windows\Cookies\" procname="%tangguoweb%" />
+
+
+
+			<DirItem dir="%userprofile%\Favorites\" procname="%360se%" />
+			<DirItem dir="%userprofile%\Favorites\" procname="%sogouexplo%" />	
+			<DirItem dir="%userprofile%\Favorites\" procname="%Maxthon%" />	
+			<DirItem dir="%userprofile%\Favorites\" procname="%chrome%" />
+			<DirItem dir="%userprofile%\Favorites\" procname="%firefox%" />
+			<DirItem dir="%userprofile%\Favorites\" procname="%opera%" />
+			<DirItem dir="%userprofile%\Favorites\" procname="%theworld%" />
+			<DirItem dir="%userprofile%\Favorites\" proc="%TTroot%\bin\TTraveler.exe" />
+			<DirItem dir="%userprofile%\Favorites\" proc="%QQBrowser%\bin\QQBrowser.exe" />
+			<DirItem dir="%userprofile%\Favorites\" proc="%QQBrowser%\bin\QQWeb.exe" />
+			<DirItem dir="%userprofile%\Favorites\" proc="%QQBrowser%\bin\QBPage.exe" />
+			<DirItem dir="%userprofile%\Favorites\" procname="%QzoneMusic%" />
+			<DirItem dir="%userprofile%\Favorites\" procname="%tangguo%" />
+			<DirItem dir="%userprofile%\Favorites\" procname="%tangguoweb%" />
+
+			<DirItem dir="%userprofile%\Local Settings\History\" procname="%360se%" />
+			<DirItem dir="%userprofile%\Local Settings\History\" procname="%sogouexplo%" />	
+			<DirItem dir="%userprofile%\Local Settings\History\" procname="%Maxthon%" />	
+			<DirItem dir="%userprofile%\Local Settings\History\" proc="%TTroot%\bin\TTraveler.exe" />
+			<DirItem dir="%userprofile%\Local Settings\History\" proc="%QQBrowser%\bin\QQBrowser.exe" />
+			<DirItem dir="%userprofile%\Local Settings\History\" proc="%QQBrowser%\bin\QQWeb.exe" />
+			<DirItem dir="%userprofile%\Local Settings\History\" proc="%QQBrowser%\bin\QBPage.exe" />
+			<DirItem dir="%userprofile%\Local Settings\History\" procname="%QzoneMusic%" />
+			<DirItem dir="%userprofile%\Local Settings\History\" procname="%tangguo%" />
+			<DirItem dir="%userprofile%\Local Settings\History\" procname="%tangguoweb%" />
+
+			<DirItem dir="%userprofile%\APPDATA\AppData\Local\Microsoft\Windows\History\" procname="%360se%" />
+			<DirItem dir="%userprofile%\APPDATA\AppData\Local\Microsoft\Windows\History\" procname="%sogouexplo%" />	
+			<DirItem dir="%userprofile%\APPDATA\AppData\Local\Microsoft\Windows\History\" procname="%Maxthon%" />
+			<DirItem dir="%userprofile%\APPDATA\AppData\Local\Microsoft\Windows\History\" procname="%theworld%" />
+			<DirItem dir="%userprofile%\APPDATA\AppData\Local\Microsoft\Windows\History\" procname="%chrome%" />
+			<DirItem dir="%userprofile%\APPDATA\AppData\Local\Microsoft\Windows\History\" procname="%firefox%" />
+			<DirItem dir="%userprofile%\APPDATA\AppData\Local\Microsoft\Windows\History\" procname="%115br%" />
+			<DirItem dir="%userprofile%\APPDATA\AppData\Local\Microsoft\Windows\History\" procname="%saayaa%" />
+			<DirItem dir="%userprofile%\APPDATA\AppData\Local\Microsoft\Windows\History\" proc="%TTroot%\bin\TTraveler.exe" />
+			<DirItem dir="%userprofile%\APPDATA\AppData\Local\Microsoft\Windows\History\" proc="%QQBrowser%\bin\QQBrowser.exe" />
+			<DirItem dir="%userprofile%\APPDATA\AppData\Local\Microsoft\Windows\History\" proc="%QQBrowser%\bin\QQWeb.exe" />
+			<DirItem dir="%userprofile%\APPDATA\AppData\Local\Microsoft\Windows\History\" proc="%QQBrowser%\bin\QBPage.exe" />
+			<DirItem dir="%userprofile%\APPDATA\AppData\Local\Microsoft\Windows\History\" procname="%QzoneMusic%" />
+			<DirItem dir="%userprofile%\APPDATA\AppData\Local\Microsoft\Windows\History\" procname="%tangguo%" />
+			<DirItem dir="%userprofile%\APPDATA\AppData\Local\Microsoft\Windows\History\" procname="%tangguoweb%" />
+
+			
+		</KDirRelateRule>
+
+		<KBlackRule>
+			<Desc>黑名单规则，判断进程名与文件名是否在列表中，目录必须以\结尾</Desc>
+		</KBlackRule>
+
+		<KSignDataRule>
+			<Desc>数字签名规则，判断文件的数字签名是否要放行</Desc>
+			<SignItem sign="Zhuhai  Kingsoft Software Co.,Ltd" />
+			<SignItem sign="Microsoft Windows Publisher" />
+			<SignItem sign="Microsoft Windows Component Publisher" />
+			<SignItem sign="Keniu Network Technology (Beijing) Co., Ltd." />
+			<SignItem sign="Qizhi Software (beijing) Co. Ltd" />
+			<SignItem sign="360.cn" />			
+			<SignItem sign="Microsoft Corporation" />
+			<SignItem sign="Beike Internet Security Technology Co.,Ltd" />
+			<SignItem sign="ESET, spol. s r.o." />
+			<SignItem sign="Symantec Corporation" />
+			<SignItem sign="Kaspersky Lab" />
+			<SignItem sign="Beijing Rising Information Technology Corporation Limited" />
+			<SignItem sign="BeiJing Eastern Micropoint Info-Tech CO., LTD" />
+			<SignItem sign="Beijing Jiangmin New Sci.&Tec. Co. Ltd." />
+			<SignItem sign="Avira GmbH" />
+			<SignItem sign="Doctor Web Ltd." />
+			<SignItem sign="McAfee, Inc." />
+			<SignItem sign="BITDEFENDER LLC" />
+			<SignItem sign="ALWIL Software" />
+			<SignItem sign="AVG Technologies" />
+			<SignItem sign="Trend Micro, Inc." />
+			<SignItem sign="Shanghai Giant Network Technology Co., Ltd." />
+			<SignItem sign="Comodo Security Solutions, Inc." />
+			<SignItem sign="Beijing FeierZhidun Technology Co., Ltd" />
+			<SignItem sign="深圳市大成天下信息技术有限公司" />
+			<SignItem sign="Antiy Technology Co. Ltd" />
+			<SignItem sign="Sophos Plc" />
+			<SignItem sign="IKARUS Software GmbH" />
+			<SignItem sign="Panda Security S.L" />
+			<SignItem sign="Norman ASA" />
+			<SignItem sign="F-Secure Corporation" />
+			<SignItem sign="VirusBlokAda" />
+			<SignItem sign="Quick Heal Technologies (Pvt) Ltd." />
+			<SignItem sign="Emsi Software GmbH" />
+			<SignItem sign="MicroWorld Technologies Inc." />
+			<SignItem sign="VirusBuster Ltd" />
+			<SignItem sign="Immunet Corporation" />
+			<SignItem sign="G DATA Software AG" />
+			<SignItem sign="AhnLab, Inc." />
+			<SignItem sign="Sunbelt Software, Inc." />
+			<SignItem sign="FRISK Software International" />
+			<SignItem sign="Agnitum Ltd." />
+			<SignItem sign="PC Tools" />
+			<SignItem sign="Check Point Software Technologies Ltd." />
+			<SignItem sign="Kingsoft Security Co.,Ltd" />
+			<SignItem sign="PPLive Corporation" />
+			<SignItem sign="Alibaba (China) Co. Ltd." />
+			<SignItem sign="IMO Network Technology Co.Ltd" />
+			<SignItem sign="Tencent Technology(Shenzhen) Company Limited" />
+
+			
+
+			
+
+		</KSignDataRule>
+
+	</KRules>
+
+	<KRuleTree>
+		<!-- type:rule, ruletree, result -->
+		<SubTree>
+			<Tree1 name="subtree1" >
+				<RootNode type="rule" rule="KProcFileRule">
+					<LeftNode type="rule" rule="KFileExtRelateRule" >
+						<LeftNode type="rule" rule="KDirRelateRule" >
+							<LeftNode type="rule" rule="KFileNameRelateRule" >
+								<LeftNode type="rule" rule="KSignDataRule" >
+									<LeftNode type="result" result="1" />
+									<RightNode type="result" result="5" />
+								</LeftNode>
+								<RightNode type="result" result="5" />
+							</LeftNode>
+							<RightNode type="result" result="5" />
+						</LeftNode>
+						<RightNode type="result" result="5" />
+					</LeftNode>
+					<RightNode type="result" result="5" />
+				</RootNode>
+			</Tree1>
+		</SubTree>
+		<MainTree>
+			<RootNode type="rule" rule="KFileExtensionRule">
+				<LeftNode type="result" result="4" />
+				<RightNode type="rule" rule="KBlackRule">
+					<LeftNode type="rule" rule="KWhiteRule">
+						<LeftNode type="rule" rule="KProcPathRule">
+							<LeftNode type="rule" rule="KFileDirRule">
+								<LeftNode type="rule" rule="KFilePathRule">
+									<LeftNode type="rule" rule="KFileNameRule">
+										<RightNode type="ruletree" ruletree="subtree1"/>
+										<LeftNode type="result" result="4"/>
+									</LeftNode>
+									<RightNode type="ruletree" ruletree="subtree1"/>
+								</LeftNode>
+								<RightNode type="ruletree" ruletree="subtree1"/>
+							</LeftNode>
+							<RightNode type="ruletree" ruletree="subtree1"/>
+						</LeftNode>
+						<RightNode type="result" result="4"/>
+					</LeftNode>
+					<RightNode type="result" result="4"/>
+				</RightNode>
+			</RootNode>
+		</MainTree>
+	</KRuleTree>
+</KRuleConfig>

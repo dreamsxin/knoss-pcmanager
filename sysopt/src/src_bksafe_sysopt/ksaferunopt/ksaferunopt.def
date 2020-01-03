@@ -1,0 +1,8 @@
+LIBRARY	"krunopt"
+
+EXPORTS
+a=pxGetRunOptEng
+b=pxFreeRunOptEng
+c=pxGetQueryEng
+d=pxFreeQueryEng
+CreateUpdateHelper

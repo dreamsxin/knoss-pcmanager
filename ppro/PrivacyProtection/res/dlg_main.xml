@@ -1,0 +1,67 @@
+﻿<layer title="金山隐私保护器" width="800" height="570" appwin="1" resize="1">
+  <header class="mainhead" width="full" height="29">
+    <icon src="100" pos="8,7"/>
+    <text class="dlgtitle" pos="29,10">%str1% 1.0.1 Beta</text>
+    <imgbtn id="60003" class="linkimage" skin="minbtn" pos="-83,7"/>
+    <imgbtn id="60002" class="linkimage" skin="maxbtn" pos="-53,7"/>
+    <imgbtn id="60001" class="linkimage" skin="closebtn" pos="-26,7"/>
+    <link class="linktext2" pos="-253,11" href="http://bbs.duba.net/thread-22314119-1-1.html" crtext="FFFFFF">什么是隐私文件</link>
+    <link class="linktext2" pos="-157,11" href="http://bbs.duba.net/thread-22314119-1-1.html" crtext="FFFFFF">立即更新</link>
+  </header>
+  <footer class="mainfoot" width="full" height="3">
+  </footer>
+  <body class="mainbody" width="full" height="full">
+		<img pos="24,6" skin=logo/>
+		<text id="201" pos="89,16" crtext="000000" font="0000"/>
+		<richtext id="202" pos="89,40,-135,68" class="richtext" />
+		<imgbtn id="1001" skin="btnStop" pos="-134,14" class="linkimage" show=0/>
+		<imgbtn id="1002" skin="btnContinue" pos="-134,14" class="linkimage" show=0/>
+		<dlg pos="5,64,-5,-40">
+			<tabctrl id="136" tabwidth="121" class="tabpage" tabskin="tab" frameskin="panelgray" tabspacing="7" tabpos="14" framepos="-1" pos="0,0,-0,-0">
+                <tab id="1614" title="我要保护的隐私">
+					<dlg id=500 pos="1,1,-1,-1">
+						<dlg pos="0,0,238,-0">
+							<realwnd id="2000" pos="0,0,-0,-0" ctrlid="2000"/>
+						</dlg>
+						<hr pos="238,0,238,-0" crbg="A3BAD2"/>
+						<dlg pos="239,0,-0,-0">
+							<realwnd id="2001" pos="0,0,-0,-0" ctrlid="2001"/>
+						</dlg>	
+					</dlg>
+				</tab>
+                <tab id="1615" title="我要监控的软件">
+					<dlg id=501 pos="1,1,-1,-1" show=0>
+						<dlg pos="0,0,238,-0">
+							<realwnd id="2002" pos="0,0,-0,-0" ctrlid="2002"/>
+						</dlg>
+						<hr pos="238,0,238,-0" crbg="A3BAD2"/>
+						<dlg pos="239,0,-0,-0">
+							<realwnd id="2003" pos="0,0,-0,-0" ctrlid="2003"/>
+						</dlg>	
+					</dlg>
+					<dlg id=502 pos="|-160,|-10,|160,|10" show=0>
+						<text pos="0,0" crtext="000000" font="0404">您尚未添加需要监控的软件！</text>
+						<text id="112" pos="250,0" class="linktext3">立即添加</text>
+					</dlg>
+				</tab>	
+			</tabctrl>
+			<richtext id="203" pos="420,10,-0,38" class="richtext" show=0 />
+		</dlg>
+		<dlg pos="5,-40,-5,-0">
+			<dlg pos="0,-40,238,-0">
+				<text id="107" pos="8,12" class="linktext" show=0>添加文件</text>
+				<text id="108" pos="80,12" class="linktext" show=0>添加文件夹</text>
+				<text id="113" pos="8,12" class="linktext" show=0>添加要监控的软件</text>
+			</dlg>
+			<dlg pos="239,-40,-0,-0">
+				<check id="109" pos="8,12" show=0/>
+				<text id="110" pos="25,13" show=0>仅显示可疑项</text>
+				<text id="114" pos="118,12" class="linktext" show=0>导出</text>
+				<text id="111" pos="160,12" class="linktext" show=0>清空记录</text>
+				<button id=103 pos="-330,-35,-170,-10" class=normalbtn>赶快告诉我的朋友</button>
+				<button id=104 pos="-165,-35,-6,-10" class=normalbtn>把监测结果保存成图片</button>
+			</dlg>
+		</dlg>
+		<img pos="248,66" skin="new"/>
+  </body>
+</layer>

@@ -1,0 +1,19 @@
+﻿<layer title="金山隐私保护器" width="669" height="459" appwin="0" resize="0">
+  <header class="mainhead" width="full" height="29">
+    <icon src="100" pos="8,7"/>
+    <text class="dlgtitle" pos="29,10">添加要监控的软件</text>
+    <imgbtn id="60001" class="linkimage" skin="closebtn" pos="-26,7"/>
+  </header>
+  <footer class="mainfoot" width="full" height="3">
+  </footer>
+  <body class="mainbody" width="full" height="full">
+		<text pos="8,12" crtext="000000" font="0000">请从以下列表中选择您需要监控的软件，如果您所需要监控的软件不在列表中，可选择自定义添加！</text>
+		<dlg pos="8,40,-8,-33" class=panel>
+			<realwnd id="3001" pos="1,1,-1,-1" ctrlid="3001"/>
+		</dlg>	
+		<check id="109" pos="15,-22"/>
+		<text id="110" pos="32,-22">全选</text>
+		<button id=103 pos="-208,-29,-108,-3" class=normalbtn>自定义添加</button>
+		<button id=104 pos="-100,-29,-8,-3" class=normalbtn>确定</button>
+  </body>
+</layer>

@@ -1,0 +1,11 @@
+; trashcleaner.def : Declares the module parameters for the DLL.
+
+LIBRARY      "trashcleaner"
+
+EXPORTS
+	; ShowMainDialog
+	ShowDlg                 PRIVATE
+	GetCleaner              PRIVATE
+	HasTrash                PRIVATE
+	SetTrashNotifyHwnd      PRIVATE
+    ; Explicit exports can go here

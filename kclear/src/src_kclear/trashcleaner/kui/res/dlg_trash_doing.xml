@@ -1,0 +1,18 @@
+﻿<layer width="400" height="248">
+    <header class="msgboxhead" width="full" height="28">
+        <icon src="IDI_ICON_SMALL" pos="5,9"/><text id="100" class="dlgtitle" pos="25,10">正在清理垃圾文件...</text><imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+    </header>
+    <footer class="msgboxfoot" width="full" height="35">
+    	<button id="106" pos="-94,0,-14,-10" class="normalbtn">取消</button>
+    </footer>
+    <body class="msgboxbody" width="full" height="full">
+        <img pos="32,12" skin="folder"/>
+        <text id="101" pos="32,18" >共计那个文件，（2313m）</text>
+        <hr pos="12,35,-12,35" crbg="96AECA"/>
+        <text id="102" pos="32,50"></text>
+        <text id="103" pos="32,70"></text>
+        <text id="105" pos="32,110"></text>
+        <progress id="104" pos="33,130,-34,140" min="0" max="100" value="1" showpercent="1" bgskin="progressbg" posskin="progresspos" show="2" />
+        <hr pos="12,159,-12,159" crbg="96AECA"/>
+    </body>
+</layer>

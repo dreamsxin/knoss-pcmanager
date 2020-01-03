@@ -1,0 +1,40 @@
+﻿<layer width="650" height="400" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="101" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">开机加速 - 一键优化</text>
+		<imgbtn id="1" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="0,0,-0,-10" id="6" show="1">
+			<dlg pos="0,0,-0,50" id="11">
+				<text pos="10,20">以下是经过金山卫士智能分析后，可以被禁止或开机不启动的项。点击“立即优化”后生效。</text>			 
+			</dlg>
+			<dlg pos="0,0,-0,50" id="12" show="0">
+				<text pos="10,20" crtext="008000">一键优化操作成功</text>
+			</dlg>
+			<dlg pos="0,0,-0,50" id="13" show="0">
+				<text pos="10,20" crtext="FF0000">一键优化对部分项目的修改失败，可能是被其他程序（例如安全软件）阻止</text>
+			</dlg>
+			<dlg pos="10,50,-10,-40" class="panel">
+				<realwnd id="2" pos="0,0,-0,-0" ctrlid="2"/>
+			</dlg>
+			<dlg pos="0,-40,-0,-0" id="9">
+				<text id="3" pos="10,18" class="linktext">全选</text>
+				<text pos="40,18" class="centertext">/</text>
+				<text id="4" pos="52,18" class="linktext">全不选</text>
+				<button id="5" pos="-90,-30,-10,-0" class="normalbtn">立即优化</button>
+			</dlg>
+			<dlg pos="0,-40,-0,-0" id="10" show="0">
+				<button id="14" pos="-90,-30,-10,-0" class="normalbtn">关闭</button>
+			</dlg>
+		</dlg>
+		<dlg pos="0,0,-0,-10" show="0" id="7">
+			<img pos="15,18" skin="stat15" sub="3"/>
+			<text pos="35,20">金山卫士一键优化可以智能分析所有的开机启动项，并给出优化建议。</text>
+			<dlg pos="10,50,-10,-40" class="panel">
+				<text pos="|-50,|-50">没有可优化的项目</text>
+			</dlg>
+			<button id="8" pos="-90,-30,-10,-0" class="normalbtn">关闭</button>
+		</dlg>
+	</body>
+</layer>

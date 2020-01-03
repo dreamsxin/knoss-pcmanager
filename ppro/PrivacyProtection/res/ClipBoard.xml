@@ -1,0 +1,18 @@
+﻿<layer id=140 width="420" height='183'>
+    <header class="msgboxhead2" width="full" height="30">
+		<icon src="100" pos="8,7"/>
+		<text class="msgtitle" pos="29,9">%str1%</text>
+		<imgbtn id="100" class="linkimage" skin="closebtn" pos="-26,7"/>
+	</header>
+	
+	<body class='msgboxbody2' width='full' height='full'>
+		<text id=151 class="textTitle" pos="30,22">以下信息已复制，用CTRL+V粘贴到QQ、微博告诉更多人！</text>	
+		<text id=152 class="textcontent" pos="30,44">我在用金山隐私保护器，可以查看谁在访问我的隐私文件。</text>
+		<text id=153 class="textcontent" pos="30,64">并且可以自己设定隐私文件，你也来下载使用一下吧。</text>
+		
+		<link id=156 class="link1" pos="30,88" href="http://bbs.duba.net/thread-22314119-1-1.html">
+		下载地址：http://bbs.duba.net/thread-22314119-1-1.html</link>
+		
+		<button id="101" pos="168,110,234,136" class="normalbtn">我知道了</button> 
+	</body>
+</layer>

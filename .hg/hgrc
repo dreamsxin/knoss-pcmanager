@@ -1,0 +1,43 @@
+[ui]
+username = iJinShan OSS Hg Repo. <knoss@kingsoft.com>
+verbose = True
+[paths]
+#default-push = ../oss-ronly
+#ijs44 = ssh://zhouqi@219.232.254.44//data/codeijinshan/hg/oss
+
+[hooks]
+incoming=/data/app/hg/hooks/autoup-loc-oss.sh
+
+[web]
+description = iJinShan OSS Hg Repo.!
+contact = Zoom.Quiet <zhouqi@kingsoft.com>
+allow_archive = gz, zip, bz2
+#since nginx is doing the SSL
+push_ssl = false
+#NGINX  is doing the auth
+allow_push = * 
+#style = coal
+style = gitweb
+
+[extensions]
+hgext.keyword=
+graphlog =
+
+[defaults]
+glog = --template 'changeset:   {rev}:{node|short} {tags}\nsummary:     {desc|firstline|fill68|tabindent|tabindent}\n\n'
+
+[keyword]
+**.py =
+**.rst =
+**.txt =
+**.wiki =
+
+[keywordmaps]
+RCSFile = {file|basename},v
+Author = {author|user}
+Header = {root}/{file},v {node|short} {date|utcdate} {author|user}
+Source = {root}/{file},v
+Date = {date|utcdate}
+Id = {file|basename},v {node|short} {date|utcdate} {author|user}
+Revision = {node|short}
+

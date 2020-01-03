@@ -1,0 +1,62 @@
+Notices for files contained in this directory:
+============================================================
+Notices for file(s):
+    /bksafevul/src_bksafevul/BeikeUtils/ExpEvaluate.cpp
+    /bksafevul/src_bksafevul/BeikeUtils/ExpEvaluate.h
+------------------------------------------------------------
+/*
+
+ Parser - an expression parser
+
+ Author:  Nick Gammon 
+          http://www.gammon.com.au/ 
+
+(C) Copyright Nick Gammon 2004. Permission to copy, use, modify, sell and
+distribute this software is granted provided this copyright notice appears
+in all copies. This software is provided "as is" without express or implied
+warranty, and with no claim as to its suitability for any purpose.
+ 
+Modified 24 October 2005 by Nick Gammon.
+
+  1. Changed use of "abs" to "fabs"
+  2. Changed inclues from math.h and time.h to fmath and ftime
+  3. Rewrote DoMin and DoMax to inline the computation because of some problems with some libraries.
+  4. Removed "using namespace std;" and put "std::" in front of std namespace names where appropriate
+  5. Removed MAKE_STRING macro and inlined the functionality where required.
+  6. Changed Evaluate function to take its argument by reference.
+
+Modified 13 January 2010 by Nick Gammon.
+ 
+  1. Changed getrandom to work more reliably (see page 2 of discussion thread)
+  2. Changed recognition of numbers to allow for .5 (eg. "a + .5" where there is no leading 0)
+     Also recognises -.5 (so you don't have to write -0.5)
+  3. Fixed problem where (2+3)-1 would not parse correctly (- sign directly after parentheses)
+  4. Fixed problem where changing a parameter and calling p.Evaluate again would fail because the 
+     initial token type was not reset to NONE.
+ 
+ 
+Thanks to various posters on my forum for suggestions. The relevant post is currently at:
+
+  http://www.gammon.com.au/forum/?id=4649
+
+*/
+
+============================================================
+Notices for file(s):
+    /bksafevul/src_bksafevul/BeikeUtils/BeikeUtils.cpp
+    /bksafevul/src_bksafevul/BeikeUtils/BeikeUtils.vcproj
+    /bksafevul/src_bksafevul/BeikeUtils/ConditionEvaluate.cpp
+    /bksafevul/src_bksafevul/BeikeUtils/CryptService.cpp
+    /bksafevul/src_bksafevul/BeikeUtils/getdxver.cpp
+    /bksafevul/src_bksafevul/BeikeUtils/SmartHandle.h
+    /bksafevul/src_bksafevul/BeikeUtils/SpecialFolder.cpp
+    /bksafevul/src_bksafevul/BeikeUtils/WinService.cpp
+    /bksafevul/src_bksafevul/BeikeUtils/WinService.h
+------------------------------------------------------------
+Copyright [2010] [YangXiaodong AT kingsoft.com] 
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at 
+
+    http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. 
+

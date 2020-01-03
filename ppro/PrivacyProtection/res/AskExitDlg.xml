@@ -1,0 +1,18 @@
+﻿<layer id=140 width="360" height='175'>
+    <header class="msgboxhead2" width="full" height="30">
+		<icon src="100" pos="8,7"/>
+		<text class="msgtitle" pos="29,10">%str1%</text>
+		<imgbtn id="60001" class="linkimage" skin="closebtn" pos="-26,7"/>
+	</header>
+	<body class='minaskbody' width='full' height='full'>
+		<!--icon id="60005" pos="30,30" src="32514" oem="1" size="32"/-->
+		<img id=160 pos="14,23" skin=iconask />
+		<text class="textcontent" pos="80,21">您点击了关闭按钮，您是想：</text>
+		<radio id=1001 group=10000 class="textcontent" pos="104,46">最小化到托盘区，继续监测?</radio>
+		<radio id=1002 group=10000 class="textcontent" pos="104,66">退出程序?</radio>
+
+		<check id=100 class="textcontent" pos="20,105">记住我的选择</check>
+		<button id="101" pos="177,97,247,123" class="normalbtn">确定</button> 
+		<button id="102" pos="262,97,332,123" class="normalbtn">取消</button> 
+	</body>
+</layer>

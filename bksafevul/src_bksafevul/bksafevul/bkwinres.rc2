@@ -1,0 +1,67 @@
+#pragma once
+
+//////////////////////////////////////////////////////////////////////////
+// XML
+
+DEFINE_XML(IDR_BK_SKIN_DEF,								100, 					"res\\def_skin.xml")
+DEFINE_XML(IDR_BK_STYLE_DEF,							101, 					"res\\def_style.xml")
+DEFINE_XML(IDR_BK_STRING_DEF,							102, 					"res\\def_string.xml")
+DEFINE_XML(IDR_BK_MAIN_DIALOG,							103, 					"res\\dlg_main.xml")
+DEFINE_XML(IDR_BK_MESSAGEBOX,							105, 					"res\\dlg_msgbox.xml")
+
+DEFINE_XML(IDR_BK_VULDLG_MAIN,              			112, 					"res\\dlg_vul_main.xml")
+DEFINE_XML(IDR_BK_VULDLG_DETAIL,						117, 					"res\\dlg_vul_Detail.xml")
+DEFINE_XML(IDR_BK_VUL_DISPLAY_SHOW_DETAIL,  			118, 					"res\\panel_vul_display_show_detail.xml")
+DEFINE_XML(IDR_BK_VUL_DISPLAY_HIDE_DETAIL,  			119, 					"res\\panel_vul_display_hide_detail.xml")
+
+DEFINE_XML(IDR_BK_SHUTDOWNPROMPT,						124, 					"res\\dlg_vul_shutdownPrompt.xml")
+
+
+DEFINE_XML(IDR_BK_DLGFILE_HOME,							506, 					"res\\dlgfile_home.xml")
+DEFINE_XML(IDR_BK_DLGFILE_FOOT,					 	    508, 					"res\\dlgfile_foot.xml")
+DEFINE_XML(IDR_BK_DLGFILE_HEADER,				 	    509, 					"res\\dlgfile_header.xml")
+DEFINE_BMP(IDB_SPLITTER_ARROW,              			11,  					"res\\splitter_arrow.bmp")
+
+//////////////////////////////////////////////////////////////////////////
+// ICON
+
+ DEFINE_ICO(IDI_BEIKESAFE,                  	 			100, 					"res\\beikesafe.ico")
+ DEFINE_ICO(IDI_SMALL,                      	 			101, 					"res\\small.ico")
+
+
+DEFINE_PNG(IDP_VUL_TIP,									12,	 					 "res\\vul_tip_icon.png")
+
+
+DEFINE_BMP(IDP_BG_MSGBOX_BODY,							29,  					"res\\msgbox_body_bg.bmp")
+
+
+DEFINE_BMP(IDB_SCAN_RESULT_LIST_BAR,		122, "res\\scan_result_list_bar.bmp")
+
+//////////////////////////////////////////////////////////////////////////
+//must
+DEFINE_BMP(IDB_VUL_DETAIL_BG,							31,						"res\\vul_Detail.bmp")
+
+DEFINE_BMP(IDB_MAIN_BG_HEADER,              			1,   					"res\\main_bg_header.bmp")
+DEFINE_BMP(IDB_MAIN_BG_BODY,                			2,   					"res\\main_bg_body.bmp")
+DEFINE_BMP(IDB_MAIN_BG_FOOTER,              			3,   					"res\\main_bg_footer.bmp")
+DEFINE_BMP(IDB_MSGBOX_BG,                   			4,   					"res\\msgbox_bg.bmp")
+DEFINE_XML(IDR_BK_MESSAGEBOX2,							150, 					"res\\dlg_msgbox2.xml")
+
+DEFINE_BMP(IDB_FRAME_PANEL_GRAY,            106, "res\\frame_panel_gray.bmp")
+DEFINE_BMP(IDB_FRAME_PANEL,                 107, "res\\frame_panel.bmp")
+DEFINE_BMP(IDB_PROGRESS_BAR_BG,             108, "res\\progress_bar_bg.bmp")
+DEFINE_BMP(IDB_PROGRESS_BAR_VALUE,          109, "res\\progress_bar_value.bmp")
+
+//DEFINE_BMP(IDB_KWS_BMP_LIST_CHECK,        				10015, 					"res\\kws_listctrl_check.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_HEADER,					210, 					"res\\listctrl_header.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_CHECK,					211, 					"res\\listctrl_check.bmp")
+DEFINE_BMP(IDB_BITMAP_MINUS_PLUS,						212, 					"res\\minus_plus.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_RADIO,					213, 					"res\\listctrl_radio.bmp")
+//DEFINE_BMP(IDB_EXAM_STATUS_ICON,        				214, 					"res\\exam_status_icon.bmp")
+DEFINE_PNG(IDB_BTN_SYS_CLOSE_PNG,							44,						 "res\\btn_sys_close.png")
+DEFINE_PNG(IDB_BTN_SYS_MAXIMIZE_PNG,						46,						 "res\\btn_sys_maximize.png")
+DEFINE_PNG(IDB_BTN_SYS_MINIMIZE_PNG,						47,						 "res\\btn_sys_minimize.png")
+DEFINE_PNG(IDB_BTN_SYS_RESTORE_PNG,						48,						     "res\\btn_sys_restore.png")
+
+//////////////////////////////////////////////////////////////////////////
+

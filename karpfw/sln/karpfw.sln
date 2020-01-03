@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arpproxy", "..\src\src_kpfw\arpproxy\arpproxy.vcproj", "{63597C98-2622-4483-A811-4126A79E5245}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arpsetting", "..\src\src_kpfw\arpsetting\arpsetting.vcproj", "{07AD7920-0C37-4EF6-B8FF-86E937B5DE68}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "karpfw", "..\src\src_kpfw\karpfw\karpfw.vcproj", "{AD5DFD26-534E-4C0F-B26C-76C3659814E5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kndisflt", "..\src\src_kpfw\kndisflt\kndisflt.vcproj", "{B06B51B5-30CF-4212-9C51-097C4D6AA624}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63597C98-2622-4483-A811-4126A79E5245}.Debug|Win32.ActiveCfg = Debug|Win32
+		{63597C98-2622-4483-A811-4126A79E5245}.Debug|Win32.Build.0 = Debug|Win32
+		{63597C98-2622-4483-A811-4126A79E5245}.Release|Win32.ActiveCfg = Release|Win32
+		{63597C98-2622-4483-A811-4126A79E5245}.Release|Win32.Build.0 = Release|Win32
+		{07AD7920-0C37-4EF6-B8FF-86E937B5DE68}.Debug|Win32.ActiveCfg = Debug|Win32
+		{07AD7920-0C37-4EF6-B8FF-86E937B5DE68}.Debug|Win32.Build.0 = Debug|Win32
+		{07AD7920-0C37-4EF6-B8FF-86E937B5DE68}.Release|Win32.ActiveCfg = Release|Win32
+		{07AD7920-0C37-4EF6-B8FF-86E937B5DE68}.Release|Win32.Build.0 = Release|Win32
+		{AD5DFD26-534E-4C0F-B26C-76C3659814E5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AD5DFD26-534E-4C0F-B26C-76C3659814E5}.Debug|Win32.Build.0 = Debug|Win32
+		{AD5DFD26-534E-4C0F-B26C-76C3659814E5}.Release|Win32.ActiveCfg = Release|Win32
+		{AD5DFD26-534E-4C0F-B26C-76C3659814E5}.Release|Win32.Build.0 = Release|Win32
+		{B06B51B5-30CF-4212-9C51-097C4D6AA624}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B06B51B5-30CF-4212-9C51-097C4D6AA624}.Debug|Win32.Build.0 = Debug|Win32
+		{B06B51B5-30CF-4212-9C51-097C4D6AA624}.Release|Win32.ActiveCfg = Release|Win32
+		{B06B51B5-30CF-4212-9C51-097C4D6AA624}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

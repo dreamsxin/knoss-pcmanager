@@ -1,0 +1,69 @@
+#pragma once
+
+//////////////////////////////////////////////////////////////////////////
+// XML
+
+DEFINE_XML(IDR_SKIN_DEF,                 100, "res\\def_skin.xml")
+DEFINE_XML(IDR_STYLE_DEF,                101, "res\\def_style.xml")
+DEFINE_XML(IDR_STRING_DEF,               102, "res\\def_string.xml")
+DEFINE_XML(IDR_MAIN_DIALOG,				 103, "res\\dlg_main.xml")
+DEFINE_XML(IDR_CLIPBOARD_DLG,			 104, "res\\ClipBoard.xml")
+DEFINE_XML(IDR_BK_MESSAGEBOX,			 105, "res\\msgbox_dlg.xml")
+DEFINE_XML(IDR_ASK_EXIT_DLG,			 106, "res\\AskExitDlg.xml")
+DEFINE_XML(IDR_WARMING_DLG,				 107, "res\\warning_dlg.xml")
+DEFINE_XML(IDR_ADD_SOFTWARE_DLG,		 108, "res\\dlg_add_software.xml")
+DEFINE_XML(IDR_SOFTWARE_DATA,			 109, "res\\software.xml")
+DEFINE_XML(IDR_MIN_ASK_DLG,				 110, "res\\minAskdlg.xml")
+//////////////////////////////////////////////////////////////////////////
+// ICON
+
+DEFINE_ICO(IDI_KAV_MAIN,                   100, "res\\PrivacyProtectionGUI.ico")
+
+
+//////////////////////////////////////////////////////////////////////////
+// PNG
+
+DEFINE_PNG(IDP_LOGO,						1,   "res\\logo.png")
+//DEFINE_PNG(IDP_BTN_MONITOR,					2,   "res\\btnMonitor.png")
+DEFINE_PNG(IDP_BTN_STOP,					3,   "res\\btnStop.png")
+DEFINE_PNG(IDB_BTN_SYS_CLOSE,               4,	"res\\btn_sys_close.png")
+DEFINE_PNG(IDB_BTN_SYS_MAXIMIZE,            5,	"res\\btn_sys_maximize.png")
+DEFINE_PNG(IDB_BTN_SYS_MINIMIZE,            6,	"res\\btn_sys_minimize.png")
+DEFINE_PNG(IDB_QQ,							7,	"res\\qq.png")
+DEFINE_PNG(IDB_IE,							8,	"res\\ie.png")
+DEFINE_PNG(IDB_MSN,							9,	"res\\msn.png")
+DEFINE_PNG(IDB_ALIWW,						10,	"res\\aliww.png")
+DEFINE_PNG(IDB_MY_DOC,						11,	"res\\mydoc.png")
+DEFINE_PNG(IDB_CUSTOM,						12,	"res\\custom.png")
+DEFINE_PNG(IDP_BTN_CONTINUE,				13, "res\\btnContinue.png")
+DEFINE_PNG(IDB_MY_COMPUTER,					14,	"res\\MyComputer.png")
+DEFINE_PNG(IDB_MY_CAMERA,					15,	"res\\webcam.png")
+DEFINE_PNG(IDB_MY_EMAIL,					16,	"res\\MyEmail.png")
+DEFINE_PNG(IDB_ICON_OK,						17,	"res\\icon_ok.png")
+DEFINE_PNG(IDB_ICON_WARN,					18,	"res\\icon_warn.png")
+DEFINE_PNG(IDB_ICON_ASK,					19,	"res\\icon_ask.png")
+DEFINE_PNG(IDB_TIP_NEW,						20,  "res\\new.png")
+DEFINE_PNG(IDB_BTN_SCAN,					21,  "res\\btnScan.png")
+DEFINE_PNG(IDB_BTN_SCAN_SHADOW,				22,  "res\\btnScanShadow.png")
+
+//////////////////////////////////////////////////////////////////////////
+// BITMAP
+DEFINE_BMP(IDB_MAIN_BG_HEADER,              1,   		"res\\main_bg_header.bmp")
+DEFINE_BMP(IDB_MAIN_BG_BODY,                2,   		"res\\main_bg_body.bmp")
+DEFINE_BMP(IDB_MAIN_BG_FOOTER,              3,   		"res\\main_bg_footer.bmp")
+DEFINE_BMP(IDP_MSG_HEAD,					31,			"res\\msgbox_head.bmp")
+DEFINE_BMP(IDP_MSG_BODY,					32,			"res\\msgbox_body.bmp")
+DEFINE_BMP(IDP_WARN_BODY,					33,			"res\\warning_body.bmp")
+DEFINE_BMP(IDB_BTN_SYS_RESTORE,             105,		"res\\btn_sys_restore.bmp")
+
+DEFINE_BMP(IDB_FRAME_PANEL,                 106,		"res\\frame_panel.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_CHECK,		107,		"res\\listctrl_check.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_HEADER,		108,		"res\\listctrl_header.bmp")
+DEFINE_BMP(IDB_BITMAP_MINUS_PLUS,			109,		"res\\minus_plus.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_RADIO,		110,		"res\\listctrl_radio.bmp")
+DEFINE_BMP(IDP_ASK_BODY,					111,		"res\\minaskbody.bmp")
+DEFINE_BMP(IDB_MSGBOX_BG,                   205,		"res\\msgbox_bg.bmp")
+
+DEFINE_BMP(IDB_TAB_NORMAL_EX,               300,   		"res\\tab_normal.bmp")
+DEFINE_BMP(IDB_FRAME_PANEL_GRAY,            301,		"res\\frame_panel_gray.bmp")
+

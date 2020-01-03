@@ -1,0 +1,42 @@
+<style>
+<class name=mainhead skin=mainbghead font=0000 crtext=000000 crbg=FBFCFD/>
+<class name=mainbody skin=mainbgbody font=0000 crtext=FFFFFF crbg=FBFCFD x-margin=7/>
+<class name=mainfoot skin=mainbgfoot font=0000 crtext=000000 crbg=FBFCFD x-margin=10 y-margin=1/>
+<class name=msgboxhead skin=msgboxhead font=0000 crtext=000000 crbg=FBFCFD/>
+<class name=msgboxbody skin=msgboxbody font=0000 crtext=000000 crbg=FBFCFD/>
+<class name=msgboxfoot skin=msgboxfoot font=0000 crtext=000000 crbg=FBFCFD/>
+<class name=dlgbody skin=dlgbody font=0000 crtext=000000 crbg=FBFCFD/>
+<class name=dlgfoot skin=dlgfoot font=0000 crtext=000000 crbg=FBFCFD/>
+<class name=linktext font=0002 hoverfont=0002 crtext=3064A5 crhover=FF0000 cursor=hand/>
+<class name=linktext2 crtext=3064A5 crhover=FF0000 cursor=hand/>
+<class name=linktext3 font=0002 hoverfont=0002 crtext=0051E5 crhover=FF0000 cursor=hand/>
+<class name="linktext4" crhover="ffffff" cursor="hand" crtext="ffffff"/>
+<class name=linktext5 crtext=3064A5 crhover=BFE7FF cursor=hand/>
+<class name=linktextsoftmgr font=0004 hoverfont=0004 crtext=000000 crhover=0064C4 textmode="8030" cursor="hand"/>
+<class name=linktextsoftmgrdesc font=0000 hoverfont=0000 crtext=000000 crhover=000000 textmode=8030 />
+<class name=panel skin=panel margin=1/>
+<class name=anibg skin=anibg/>
+<class name=tipbg skin=tipbg/>
+<class name=panelwhite skin=panelwhite/>
+<class name=panelffffff skin=panelffffff margin=1/>
+<class name=cpanel skin=panel margin=20/>
+<class name=panelclear skin=panelclear margin=8/>
+<class name=panelrundelay skin=panelrundelay margin=2/>
+<class name=client margin=10/>
+<class name=normalbtn skin=normalbtn font=0000 crtext=000000 textmode=25 cursor=hand x-margin=5/>
+<class name=linkimage cursor=hand/>
+<class name="mark" crtext="2F63A5" crhover="2F63A5" cursor="hand"/>
+<class name="plugandpayinfo" crtext="C80000" textmode="26"/>
+<class name=boldtext font=0004 textmode=20/>
+<class name=toptext textmode=20 />
+<class name=vcentertext textmode=24/>
+<class name=rightvcentertext textmode=26/>
+<class name=centertext textmode=25/>
+<class name=righttext textmode=22/>
+<class name=tabpage margin=2 crbg=FBFCFD/>
+<class name=splitter_notclickable crbg=E5E5E5 textmode=25/>
+
+<class name=dlgtitle font=0004 crtext=FFFFFF textmode="8030"/>
+
+
+</style>

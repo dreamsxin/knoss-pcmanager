@@ -1,0 +1,182 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#include ""buildcfg/versionno.rc2""\r\n"
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ARP_SETTING DIALOGEX 0, 0, 278, 249
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "金山卫士ARP防火墙"
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,158,218,50,14
+    PUSHBUTTON      "取消",IDCANCEL,218,218,50,14
+    GROUPBOX        "基本设置",IDC_STATIC,7,28,264,40
+    CONTROL         "启用ARP防火墙",IDC_CHK_ENABLE_FW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,45,68,10
+    GROUPBOX        "网关设置",IDC_STATIC,7,73,264,140
+    CONTROL         "手工设置网关信息",IDC_CHK_USE_MYGW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,87,80,10
+    LTEXT           "高级设置",IDC_LNK_ADV_SETTING,231,87,33,8
+    CONTROL         "",IDC_LIST_GETWAY,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_OWNERDRAWFIXED | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,15,105,249,59
+    LTEXT           "网关信息可以自动获得，无需手工设置",IDC_STATIC,15,171,137,8
+    PUSHBUTTON      "添加",IDC_BTN_ADD,91,186,50,14
+    PUSHBUTTON      "编辑",IDC_BTN_EDIT,152,186,50,14
+    PUSHBUTTON      "删除",IDC_BTN_DEL,213,186,50,14
+    LTEXT           "获得默认网关",IDC_LNK_GETGW,15,187,49,8
+END
+
+IDD_ADV_SETTING DIALOGEX 0, 0, 255, 273
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "高级设置"
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,130,223,50,14
+    PUSHBUTTON      "取消",IDCANCEL,191,223,50,14
+    GROUPBOX        "通知网关",IDC_STATIC,7,26,241,67
+    GROUPBOX        "安全模式",IDC_STATIC,7,103,241,50
+    GROUPBOX        "ARP拦截",IDC_STATIC,7,161,241,55
+    CONTROL         "实时通知网关(主动保存和网关的连接，避免被欺骗)",IDC_CHK_NOTICE_GW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,40,200,10
+    LTEXT           "通知频率(1-50):",IDC_STATIC,25,59,61,8
+    EDITTEXT        IDC_EDT_NOTICE_TIMER,92,57,40,14,ES_AUTOHSCROLL
+    LTEXT           "次/秒",IDC_STATIC,136,59,21,8
+    LTEXT           "* 实时通知网关会占用少量的网络资源",IDC_STATIC,27,74,137,8
+    CONTROL         "启用安全模式(只响应来自网关的ARP请求)",IDC_CHK_SAFEMODE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,120,164,10
+    LTEXT           "* 开启安全模式将使其他电脑无法访问本机",IDC_STATIC,27,137,153,8
+    CONTROL         "拦截外部ARP攻击",IDC_CHK_BLOCK_INATTACK,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,17,231,76,10
+    CONTROL         "拦截外部IP冲突",IDC_CHK_BLOCK_IPCONFLICT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,176,72,10
+    CONTROL         "拦截本机对外ARP攻击",IDC_CHK_BLOCK_OUTATTACK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,195,92,10
+END
+
+IDD_EDIT_GATEWAY DIALOGEX 0, 0, 232, 131
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "网关设置"
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,59,106,50,14
+    PUSHBUTTON      "取消",IDCANCEL,121,106,50,14
+    GROUPBOX        "请输入要编辑的网关IP地址和MAC地址",IDC_STATIC,7,25,218,73
+    LTEXT           "网关IP",IDC_STATIC,19,43,25,8
+    CONTROL         "",IDC_IP_ADDRESS,"SysIPAddress32",WS_TABSTOP,55,41,119,15
+    LTEXT           "网关MAC",IDC_STATIC,19,65,29,8
+    EDITTEXT        IDC_MAC_ADDRESS,55,63,119,15,ES_AUTOHSCROLL
+    LTEXT           "获取MAC",IDC_LNK_GETMAC,183,67,29,8
+    LTEXT           "* 点击“获取MAC”将自动获得所添IP对应的MAC地址",IDC_STATIC,18,83,185,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\arpsetting.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ARP_SETTING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 242
+    END
+
+    IDD_ADV_SETTING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 248
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 266
+    END
+
+    IDD_EDIT_GATEWAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 124
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CLOSE_BTN           BITMAP                  "res\\btn_sys_close.bmp"
+IDB_SKIN                BITMAP                  "res\\msgbox_bg.bmp"
+IDB_COMMON_BTN          BITMAP                  "res\\btn_common.bmp"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+//#include "buildcfg/versionno.rc2"
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

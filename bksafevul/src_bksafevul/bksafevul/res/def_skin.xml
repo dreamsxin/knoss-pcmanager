@@ -1,0 +1,31 @@
+﻿<skins>
+
+	<imghorzex name="mainbghead" src="1" left="3"/>
+	<imgframe name="mainbgbody" src="2" top="88" left="7" mode="mask" crbg="FBFCFD"/>
+	<imghorzex name="mainbgfoot" src="3" left="2"/>
+	<imgframe name="msgboxhead" src="4" top="32" left="5" crbg="FBFCFD" part="top"/>
+	<imgframe name="dlgbody" src="4" top="32" left="5" crbg="FBFCFD" part="middle"/>
+	<imgframe name="dlgfoot" src="4" top="32" left="5" crbg="FBFCFD" part="bottom"/>
+	<imgframe name="msgboxbody" src="29" top="0" left="2" crbg="FBFCFD" part="middle"/>
+	<imgframe name="msgboxfoot" src="29" top="0" left="2" crbg="FBFCFD" part="bottom"/>
+	<button name="uglybtn"/>
+	<button name="normalbtn" border="7D9EBC" bg="FBFCFD" bgup="FEFEFE" bgdown="C6E2FD" bguphover="FEFEFE" bgdownhover="DBEDFE" bguppush="C6E2FD" bgdownpush="FEFEFE"/>
+
+	<!--必须的-->
+	<imgframe name="panel" src="107" top="1" left="1" crbg="FBFCFD"/>
+	<imgframe name="panelgray" src="106" top="1" left="1" crbg="FBFCFD"/>
+	<imghorzex name="progressbg" src="108" mode="mask" left="3"/>
+	<imghorzex name="progresspos" src="109" mode="mask" left="3"/>
+	<imghorzex name="listheaderbg" src="210" mode="mask" left="2"/>
+	<png name="closebtn" src="44" subwidth="43"/>
+	<png name="closeonlybtn" src="44" subwidth="43"/>
+	<png name="maxbtn" src="46" subwidth="30"/>
+	<png name="minbtn" src="47" subwidth="32"/>
+	<png name="restorebtn" src="48" subwidth="30"/>
+	<png name="vultip" src="12" mode="mask" subwidth="16"/>
+	<imglst name="splitter_arrow" src="11" subwidth="5"/>
+	<!--必须的 end-->
+	
+
+
+</skins>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<KRuleConfig>
+    <KRules>
+        <KFileExtensionRule extension=".mp3">
+            <Desc>文件扩展名规则，判断文件扩展名是否在列表中</Desc>
+        </KFileExtensionRule>
+        <KProcFileRule>
+            <Desc>文件进程同一目录规则，判断文件是否在进程目录下</Desc>
+        </KProcFileRule>
+        <KFilePathRule>
+            <Desc>文件全路径规则，判断文件路径是否在指定的文件列表中</Desc>
+        </KFilePathRule>
+        <KWhiteRule>
+            <Desc>文件全路径规则，判断文件路径是否在指定的文件列表中</Desc>
+        </KWhiteRule>
+        <KFileDirRule>
+            <Desc>文件目录规则，判断文件目录是否在指定的目录列表中</Desc>
+        </KFileDirRule>
+        <KProcPathRule>
+            <Desc>进程全路径规则，判断进程路径是否在指定的文件列表中</Desc>
+        </KProcPathRule>
+        <KProcDirRule>
+            <Desc>进程目录规则，暂未支持，判断进程目录是否在指定的目录列表中</Desc>
+        </KProcDirRule>
+        <KFileExtRelateRule>
+            <Desc>文件扩展名关联进程与自定义关联进程规则，判断文件默认打开进程是否在系统定义进程或者自定义进程列表中</Desc>
+        </KFileExtRelateRule>
+        <KFileNameRelateRule>
+            <Desc>文件名关联进程规则，判断文件默认打开进程是否在系统定义进程或者自定义进程列表</Desc>
+        </KFileNameRelateRule>
+        <KDirRelateRule>
+            <Desc>文件路径关联进程规则，判断访问目录的进程是否在自定义关联的进程列表中</Desc>
+        </KDirRelateRule>
+        <KBlackRule>
+            <Desc>黑名单规则，判断进程名与文件名是否在列表中，目录必须以\结尾</Desc>
+        </KBlackRule>
+        <KSignDataRule>
+            <Desc>数字签名规则，判断文件的数字签名是否要放行</Desc>
+        </KSignDataRule>
+    </KRules>
+</KRuleConfig>

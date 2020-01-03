@@ -1,0 +1,6 @@
+LIBRARY	"kclear"
+
+EXPORTS
+	CreateKClearObject
+	DllGetClassObject		PRIVATE
+	

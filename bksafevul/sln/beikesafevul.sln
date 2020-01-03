@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BeikeUtils", "..\src_bksafevul\BeikeUtils\BeikeUtils.vcproj", "{5F41920B-2E7E-436B-8A5C-2845CAC727D9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VulfixLib", "..\src_bksafevul\vulfix_dll\VulfixLib\VulfixLib.vcproj", "{44D5267B-CECB-466D-81EE-BEEADCC09B80}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ksafevul", "..\src_bksafevul\vulfix_dll\VulfixDll\VulfixDll.vcproj", "{B4329D16-FA7B-4CD7-830C-9FC77925B9BE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7A5FC9A1-4FE4-45A4-8774-A2052B5DC876} = {7A5FC9A1-4FE4-45A4-8774-A2052B5DC876}
+		{44D5267B-CECB-466D-81EE-BEEADCC09B80} = {44D5267B-CECB-466D-81EE-BEEADCC09B80}
+		{5F41920B-2E7E-436B-8A5C-2845CAC727D9} = {5F41920B-2E7E-436B-8A5C-2845CAC727D9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libDownload", "..\src_bksafevul\vulfix_dll\libDownload\libDownload.vcproj", "{7A5FC9A1-4FE4-45A4-8774-A2052B5DC876}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "beikesafevul", "..\src_bksafevul\bksafevul\beikesafe.vcproj", "{E93E6C89-7D4E-42FC-9633-A8134285B5F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F41920B-2E7E-436B-8A5C-2845CAC727D9} = {5F41920B-2E7E-436B-8A5C-2845CAC727D9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "leakscan_test", "..\test\leakscan_test\leakscan_test.vcproj", "{1E95A476-A9B4-4CAB-A5AA-C9CDE0A75E6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F41920B-2E7E-436B-8A5C-2845CAC727D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F41920B-2E7E-436B-8A5C-2845CAC727D9}.Debug|Win32.Build.0 = Debug|Win32
+		{5F41920B-2E7E-436B-8A5C-2845CAC727D9}.Release|Win32.ActiveCfg = Release|Win32
+		{5F41920B-2E7E-436B-8A5C-2845CAC727D9}.Release|Win32.Build.0 = Release|Win32
+		{44D5267B-CECB-466D-81EE-BEEADCC09B80}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44D5267B-CECB-466D-81EE-BEEADCC09B80}.Debug|Win32.Build.0 = Debug|Win32
+		{44D5267B-CECB-466D-81EE-BEEADCC09B80}.Release|Win32.ActiveCfg = Release|Win32
+		{44D5267B-CECB-466D-81EE-BEEADCC09B80}.Release|Win32.Build.0 = Release|Win32
+		{B4329D16-FA7B-4CD7-830C-9FC77925B9BE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B4329D16-FA7B-4CD7-830C-9FC77925B9BE}.Debug|Win32.Build.0 = Debug|Win32
+		{B4329D16-FA7B-4CD7-830C-9FC77925B9BE}.Release|Win32.ActiveCfg = Release|Win32
+		{B4329D16-FA7B-4CD7-830C-9FC77925B9BE}.Release|Win32.Build.0 = Release|Win32
+		{7A5FC9A1-4FE4-45A4-8774-A2052B5DC876}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A5FC9A1-4FE4-45A4-8774-A2052B5DC876}.Debug|Win32.Build.0 = Debug|Win32
+		{7A5FC9A1-4FE4-45A4-8774-A2052B5DC876}.Release|Win32.ActiveCfg = Release|Win32
+		{7A5FC9A1-4FE4-45A4-8774-A2052B5DC876}.Release|Win32.Build.0 = Release|Win32
+		{E93E6C89-7D4E-42FC-9633-A8134285B5F4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E93E6C89-7D4E-42FC-9633-A8134285B5F4}.Debug|Win32.Build.0 = Debug|Win32
+		{E93E6C89-7D4E-42FC-9633-A8134285B5F4}.Release|Win32.ActiveCfg = Release|Win32
+		{E93E6C89-7D4E-42FC-9633-A8134285B5F4}.Release|Win32.Build.0 = Release|Win32
+		{1E95A476-A9B4-4CAB-A5AA-C9CDE0A75E6E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1E95A476-A9B4-4CAB-A5AA-C9CDE0A75E6E}.Debug|Win32.Build.0 = Debug|Win32
+		{1E95A476-A9B4-4CAB-A5AA-C9CDE0A75E6E}.Release|Win32.ActiveCfg = Release|Win32
+		{1E95A476-A9B4-4CAB-A5AA-C9CDE0A75E6E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+﻿<layer id=140 width="360" height='158'>
+    <header class="msgboxhead2" width="full" height="30">
+		<icon src="100" pos="8,7"/>
+		<text class="msgtitle" pos="29,10">%str1% %str2%</text>
+		<imgbtn id="60001" class="linkimage" skin="closebtn" pos="-26,7"/>
+	</header>
+	<body class='minaskbody' width='full' height='full'>
+		<!--icon id="60005" pos="30,30" src="32514" oem="1" size="32"/-->
+		<img id=160 pos="11,16" skin=iconask />
+		<text id=152 class="textcontent" pos="84,28">隐私保护监测已暂停，是否在最小化的同时</text>
+		<text id=152 class="textcontent" pos="84,50">开启监测，使其在后台静默监测？</text>
+		
+		<button id="101" pos="55,80,145,106" class="normalbtn">仅最小化窗口</button> 
+		<button id="102" pos="185,80,305,106" class="normalbtn">开启监测并最小化</button> 
+	</body>
+</layer>

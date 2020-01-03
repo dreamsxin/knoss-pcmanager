@@ -1,0 +1,39 @@
+﻿<style>
+<class name=mainhead skin=mainbghead font=0000 crtext=000000 crbg=FBFCFD/>
+<class name=mainbody skin=mainbgbody font=0000 crtext=000000 crbg=FBFCFD x-margin=1/>
+<class name=mainfoot skin=mainbgfoot font=0000 crtext=000000 crbg=FBFCFD x-margin=1 y-margin=1/>
+<class name=dlgtitle font=0004 crtext=FFFFFF/>
+<class name=richtext spacing=5 linespacing=20/>
+<class name=panel skin=panel margin=0/>
+<class name=tipbg skin=tipbg/>
+
+
+<class name=linkimage cursor=hand/>
+<class name=linktext font=0002 hoverfont=0002 crtext=3064A5 crhover=FF0000 cursor=hand/>
+<class name=linktext2 crtext=3064A5 crhover=FF0000 cursor=hand/>
+<class name=linktext3 font=0406 hoverfont=0406 crtext=3064A5 crhover=FF0000 cursor=hand/>
+<class name=linktext4 font=0000 hoverfont=0000 crtext=3064A5 crhover=FF0000 cursor=hand/>
+
+<class name=tabpage margin=2 crbg=FBFCFD/>
+<class name=vcentertext textmode=24/>
+<class name=warningtext textmode=24 crtext=FA7305/>
+
+<class name="menubody" skin="menubody" font="0000" crtext="000000" crbg="FBFCFD" />
+<class name="about" skin="about" font="0000" crtext="000000" crbg="FBFCFD" />
+<class name=normalbtn skin=normalbtn font=0000 crtext=000000 textmode=25 cursor=hand x-margin=5/>
+
+<class name="msgboxhead2" skin="msgboxhead2" font="0000" crtext="000000" crbg=FBFCFD />
+<class name="msgboxbody2" skin="msgboxbody2" font="0000" crtext="000000" crbg=FBFCFD />
+<class name="warnbodybody" skin="warnbodybody" font="0000" crtext="000000" crbg=FBFCFD />
+<class name="minaskbody" skin="minaskbody" font="0000" crtext="000000"/>
+<class name="msgtitle" font="0000" crtext="ffffff" />
+<class name="msgboxhead" skin="msgboxhead" font="0000" crtext="000000" crbg=FBFCFD />
+<class name="msgboxbody" skin="msgboxbody" font="0000" crtext="000000" crbg=FBFCFD />
+<class name="msgboxfoot" skin="msgboxfoot" font=0000 crtext=000000 crbg=FBFCFD />
+<class name=client margin=10/>
+<class name="msgtext" font="0000" crtext="000000" textmode="850"/>
+<class name=textTitle font=0004 />
+<class name=textcontent font=0000 />
+<class name=link1 font=0002 hoverfont=0002 crtext=090bcf crhover=ff6767 cursor=hand/>
+
+</style>

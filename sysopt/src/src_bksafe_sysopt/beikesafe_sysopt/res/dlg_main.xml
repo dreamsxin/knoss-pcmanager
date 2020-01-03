@@ -1,0 +1,13 @@
+﻿<layer title="金山卫士 2.1" width="800" height="570" appwin="1" resize="1">
+	<header class="msgboxhead" width="full" height="32">
+		<dlgfile pos="0,0,-0,-0" src="509" />
+	</header>
+	<!--
+	<footer class="mainfoot" width="full" height="23">
+		<dlgfile pos="0,0,-0,-0" src="508" />
+	</footer>
+	-->
+	<body class="dlgfoot" width="full" height="full">
+		<dlgfile pos="5,0,-5,-5" src="504" />
+	</body>
+</layer>

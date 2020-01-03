@@ -1,0 +1,7 @@
+<xml>
+<item type="2" type2="0" type3="0" type4="0" namex="VMnetDHCP" name2=""/>
+<item type="2" type2="0" type3="0" type4="0" namex="ufad-ws60" name2=""/>
+<item type="2" type2="0" type3="0" type4="0" namex="VMware NAT Service" name2=""/>
+<item type="2" type2="0" type3="0" type4="0" namex="VMAuthdService" name2=""/>
+<item type="2" type2="0" type3="0" type4="0" namex="msvsmon80" name2=""/>
+</xml>

@@ -1,0 +1,293 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#include ""buildcfg/versionno.rc2""\0"
+    "#include ""kuiwin/kuires.rc2""\r\n"
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\TrashFileClear2.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN_DIALOG DIALOGEX 0, 0, 475, 343
+STYLE DS_SETFONT | DS_CONTROL | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    CONTROL         "List1",IDC_DIRECTORYLIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_OWNERDRAWFIXED | LVS_OWNERDATA | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,0,6,142,55
+    CONTROL         "List2",IDC_FILELIST,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_OWNERDRAWFIXED | LVS_OWNERDATA | LVS_NOSORTHEADER | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,140,6,328,299
+    PUSHBUTTON      "开始扫描",IDC_RESCAN,121,312,48,14
+    PUSHBUTTON      "立即清理",IDC_CLEARFILE,365,322,50,14
+    LTEXT           "双击打开对应文件夹",IDC_TOOLHELP_STATIC,147,297,321,8,NOT WS_VISIBLE
+    CONTROL         "",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,322,10,14
+    LTEXT           "全选",IDC_CHECK_STATIC,34,321,81,8
+    LTEXT           "选中推荐项目",IDC_RCOMD,179,315,56,10
+    CONTROL         "",IDC_TREE,"SysTreeView32",TVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,0,6,142,299
+END
+
+IDD_PROCESS_DIALOG DIALOGEX 0, 0, 296, 100
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_BORDER
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",WS_BORDER,7,33,282,14
+    CTEXT           "正在清理垃圾文件，请稍候 ...",IDC_TITLE_STATIC,7,13,282,8
+    LTEXT           "静态",IDC_TEST,55,59,204,9
+END
+
+IDD_DIALOG_CONTAINER DIALOGEX 0, 0, 523, 263
+STYLE DS_SETFONT | DS_CONTROL | WS_CHILD | WS_VISIBLE
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAIN_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 468
+        BOTTOMMARGIN, 336
+        HORZGUIDE, 6
+        HORZGUIDE, 305
+    END
+
+    IDD_PROCESS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 289
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 93
+    END
+
+    IDD_DIALOG_CONTAINER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 516
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 256
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CHECKBOX_BMP        BITMAP                  "res\\spycheckbox.bmp"
+IDB_BUTTON              BITMAP                  "res\\xnormal.bmp"
+IDB_BUTTONSEL           BITMAP                  "res\\xhover.bmp"
+IDB_BITMAP_TIP_PROMPT   BITMAP                  "res\\tip_prompt.bmp"
+IDB_BMP_IE              BITMAP                  "res\\ie.bmp"
+IDB_BMP_SYS             BITMAP                  "res\\sys.bmp"
+IDB_BMP_PERSON          BITMAP                  "res\\person.bmp"
+IDB_BMP_CACHE           BITMAP                  "res\\cache.bmp"
+IDB_BMP_EXP             BITMAP                  "res\\sysexp.bmp"
+IDB_BMP_DOWNLOAD        BITMAP                  "res\\download.bmp"
+IDB_BMP_UTEMP           BITMAP                  "res\\utemp.bmp"
+IDB_BMP_READ            BITMAP                  "res\\wread.bmp"
+IDB_BMP_UPDATE          BITMAP                  "res\\update.bmp"
+IDB_BMP_RED             BITMAP                  "res\\redtip.bmp"
+IDB_BMP_BLUE            BITMAP                  "res\\bluetip.bmp"
+IDB_BMP_LOAD8           BITMAP                  "res\\loading-8.bmp"
+IDB_BMP_LOAD1           BITMAP                  "res\\loading-1.bmp"
+IDB_BMP_LOAD2           BITMAP                  "res\\loading-2.bmp"
+IDB_BMP_LOAD3           BITMAP                  "res\\loading-3.bmp"
+IDB_BMP_LOAD4           BITMAP                  "res\\loading-4.bmp"
+IDB_BMP_LOAD5           BITMAP                  "res\\loading-5.bmp"
+IDB_BMP_LOAD6           BITMAP                  "res\\loading-6.bmp"
+IDB_BMP_LOAD7           BITMAP                  "res\\loading-7.bmp"
+IDB_BMP_OK              BITMAP                  "res\\ok.bmp"
+IDB_FOLDER_CHECKFLAG_BMP BITMAP                  "res\\bmp_foler_checkflags.bmp"
+IDB_XUNLEIKANKAN        BITMAP                  "res\\xunleikk.bmp"
+IDB_IEPARENT            BITMAP                  "res\\Adressleiste.bmp"
+IDB_FENGXING            BITMAP                  "res\\funshion.bmp"
+IDB_CHROME              BITMAP                  "res\\googleChrome.bmp"
+IDB_YOUKU               BITMAP                  "res\\iku.bmp"
+IDB_KU6                 BITMAP                  "res\\ku6.bmp"
+IDB_PPS                 BITMAP                  "res\\pps.bmp"
+IDB_PPTV                BITMAP                  "res\\PPTV.bmp"
+IDB_QQLIVE              BITMAP                  "res\\qqlive.bmp"
+IDB_QVOD                BITMAP                  "res\\Qvod.bmp"
+IDB_TUDOU               BITMAP                  "res\\tudou.bmp"
+IDB_VIDEO               BITMAP                  "res\\video.bmp"
+IDB_BITMAP2             BITMAP                  "res\\btn_disable.bmp"
+IDB_BITMAP_DUMP         BITMAP                  "res\\dump.bmp"
+IDB_BITMAP_LNK          BITMAP                  "res\\lnk.bmp"
+IDB_BMP_SOGO            BITMAP                  "res\\sogo.bmp"
+IDB_BMP_FIREFOX         BITMAP                  "res\\FirefoxMac.bmp"
+IDB_BMP_MATHON          BITMAP                  "res\\maxthon.bmp"
+IDB_BMP_OPERA           BITMAP                  "res\\opera_.bmp"
+IDB_BMP_LOGFILE         BITMAP                  "res\\logfile.bmp"
+IDB_BMP_ERRPORT         BITMAP                  "res\\errrport.bmp"
+IDB_BMP_SUOLVETU        BITMAP                  "res\\suolvtu.bmp"
+IDB_BMP_HUISHAOUZHAN    BITMAP                  "res\\huishouzhan.bmp"
+IDB_BMP_TIPS_CLOSE      BITMAP                  "res\\tips_close.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_BUTTON_COMMON_NORMAL PNG                     "res\\btnnormal.bmp"
+IDB_BUTTON_COMMON_HOVER PNG                     "res\\btnover.bmp"
+IDB_BUTTON_COMMON_DOWN  PNG                     "res\\btndown.bmp"
+IDB_BUTTON_COMMON_DISABLE PNG                     "res\\btn_disable.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_FILELIST_MENU MENU 
+BEGIN
+    POPUP "1"
+    BEGIN
+        MENUITEM "打开所在文件夹(&O)",                 IDM_OPENDIR
+        MENUITEM "从列表中移除(&R)",                  IDM_REMOVEFROMLIST
+        MENUITEM "清除文件(&C)",                    IDM_CLEARFILE
+        MENUITEM SEPARATOR
+        MENUITEM "全选(&A)",                      IDM_SELALL
+        MENUITEM "反向选择(&U)",                    IDM_UNSEL
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_SELFCURSOR          CURSOR                  "res\\change.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_FILENAME            "全选/全不选"
+    IDS_FILESIZE            "大小"
+    IDS_CLEARFLAG           "清除状态"
+    IDS_MSG_ERROR           "错误"
+    IDS_INPUT_ERROR_NOONE   "请选择要清除的文件。"
+    IDS_CLEAR_SUCCESS       "清除成功"
+    IDS_CLEAR_FAILED        "清除成功"
+    IDS_CLEAR_REBOOT        "重启后清除"
+    IDS_NOFINDTRASHFILE     "没有在你的电脑上发现垃圾文件！！"
+    IDS_TEXT_COMPONENT_NAME "垃圾文件清理"
+    IDS_TEXT_COMPONENT_DESC "清理您计算机中的无用文件"
+    IDS_INTRODUCTION        "上网冲浪或电脑使用时，会产生许多临时文件与历史记录文件，长期以久，相当耗费硬盘空间，使用此功能，能有效地清除垃圾文件，为您的硬盘腾出更多的空间。"
+    IDS_RC_FAILED_ALLOCMEMORY "内存分配失败！！"
+    IDS_RC_FAILED_NOFILE    "没有找到配置文件！！"
+    IDS_RC_FAILED_INVALID_FILE "无效的配置文件，可能已被非法修改！！"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RC_FAILED_READFILE  "无法读取配置文件！！"
+    IDS_RC_FAILED           "读取配置文件遇到未知的错误！！"
+    IDS_RC_SUCCESS          "读取配置文件成功！！"
+    IDS_OTHER               "其它"
+    IDS_FILECOUNT           "文件名"
+    IDS_GROUP_FORMAT        "%s ( %d 个文件)"
+    IDS_CHOICE_DIR          "选择文件夹"
+    IDS_CLEARRESULT         "垃圾文件清除成功：\n共清除文件( %d个)，释放磁盘空间( %s)。\n其中清除成功( %d个)，需要重启后清除( %d个)，清除失败( %d个)。 "
+    IDS_SEL_ALL             "全选"
+    IDS_SEL_NONE            "全不选"
+    IDS_CLEARRESULT_NEW     "垃圾文件清除成功：\n共清除文件( %d个)，释放磁盘空间( %s)。"
+    IDS_TEXT_PROMPT_SCANING "正在扫描垃圾文件 "
+    IDS_TEXT_PROMPT_SCANING_STATUS "正在进行垃圾文件扫描，已发现垃圾文件"
+    IDS_TEXT_PROMPT_SCANING_DONE "扫描已完成，共发现垃圾文件 "
+    IDS_TEXT_PROMPT_ACTION  " ，建议立即清理！"
+    IDS_TEXT_NULL           " "
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RESCAN              "重新扫描"
+    IDS_SCAN                "开始扫描"
+    IDS_CLEAR               "立即清理"
+    IDS_STRING35            "停止扫描"
+    IDS_TEXT_PROMPT_ACTION1 " ，建议您7天内再次进行清理！"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "buildcfg/versionno.rc2"
+#include "kuiwin/kuires.rc2"
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,5 @@
+﻿<icon src="101" pos="5,4"/>
+<text class="dlgtitle" pos="25,6">%str1% - 系统优化</text>
+<imgbtn id="60003" class="linkimage" skin="minbtn" pos="-105,0"/>
+<imgbtn id="60002" class="linkimage" skin="maxbtn" pos="-73,0"/>
+<imgbtn id="60001" class="linkimage" skin="closebtn" pos="-43,0"/>

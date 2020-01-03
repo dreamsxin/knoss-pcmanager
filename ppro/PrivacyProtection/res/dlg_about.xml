@@ -1,0 +1,24 @@
+﻿<layer width="450" height="323">
+    <header class=about width=full height=323>
+	    <imgbtn id=100 class=linkimage skin=closebtn pos="-41,0"/>
+		<img pos="21,38" skin=aboutlogo/>
+		<img pos="181,49" skin=awards />
+		<text pos="202,105">金山毒霸官网：</text>
+		<link pos="286,105" class=linktext href="http://www.duba.net/?about_kav">http://www.duba.net</link>
+		<text pos="202,127">金山毒霸论坛：</text>
+		<link pos="286,127" class=linktext href="http://bbs.duba.net/?about_kav">http://bbs.duba.net</link>
+		<text pos="202,149">金山毒霸博客：</text>
+		<link pos="286,149" class=linktext href="http://blog.duba.net/?about_kav">http://blog.duba.net</link>
+		<text pos="202,171">客服电话：400-610-7777 或 010-82331816</text>
+		<text pos="31,222">引擎版本：</text>
+		<text pos="91,222" id=500>查询中...</text>
+		<text pos="31,240">产品版本：SP3</text>
+		<text pos="31,258">安装包信息：</text>
+		<text pos="107,258" id=501 >查询中...</text>
+		<text pos="31,276">版权所有(C) 2009-2010 金山软件</text>
+		<link id=102 pos="224,276" class=linktext>许可协议</link>
+		<button id=101 pos="350,273,422,298" class=normalbtn>确 定</button>
+	</header>
+	<body width=0 height=0>
+    </body>
+</layer>

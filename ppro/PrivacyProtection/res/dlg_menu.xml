@@ -1,0 +1,11 @@
+﻿<layer width="95" height="76">
+	<body width="full" height="full" class="menubody">
+		<dlg pos="0,0,-0,-0">
+	        <link class=linktext2 pos="33,11" href="http://www.duba.net/?about_kav">官 网</link>
+			<hr pos="10,25,-10,25" crbg=CCCCCC show=1 />
+			<link class=linktext2 pos="33,36" href="http://help.duba.net/KIS2011/index.html?vendor=kav_main">帮 助</link>
+			<hr pos="10,50,-10,50" crbg=CCCCCC show=1 />
+			<link id=100 class=linktext2 pos="33,60">关 于</link>
+		</dlg>
+	</body>
+</layer>
